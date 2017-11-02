@@ -2,3 +2,4 @@ source 'https://rubygems.org'
 gem "minima"
 # Minima is a default theme for Jekyll sites.
 gem "jekyll-theme-slate"
+gem "github-pages", group: :jekyll_plugins
