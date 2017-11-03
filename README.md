@@ -1,5 +1,5 @@
 # DSEO
-The Data Science Educational Ontology is a collection of concepts that aims to capture learning needs in data science.
+The Data Science Education Ontology is a collection of concepts that aims to capture learning needs in data science.
 
 # docs
 This directory contains documentation posted on [https://bioint.github.io/DSEO/](https://bioint.github.io/DSEO/).
