@@ -1,6 +1,8 @@
-## The Data Science Education Ontology (DSEO) is a collection of concepts that aims to capture learning needs in data science. It was designed with a data science practicioner's workflow in mind.
+## The Data Science Education Ontology (DSEO) is a collection of concepts that aims to capture learning needs in data science. 
 
-<span style="color:black">Download the DSEO ttl file on [Github](https://github.com/bioint/DSEO) or on [BioPortal](https://bioportal.bioontology.org/ontologies/DSEO).</span>
+#### It was designed with a data science practicioner's workflow in mind.
+
+<span style="color:black">Download the DSEO ttl file from [Github](https://github.com/bioint/DSEO) or [BioPortal](https://bioportal.bioontology.org/ontologies/DSEO).</span>
 
 <span style="color:black">See an example of how DSEO can be used for facets in search and filtering [HERE](https://bigdatau.ini.usc.edu/search?query=machine+learning).</span>
 
@@ -12,7 +14,7 @@ training resources and materials and provides an interface for learners to searc
 explore, recommend, and collect resources they find valuable. Overall, the platform
 aims to teach data science while leveraging techniques from data science.
 
-Specifically, the DSEO is part of the Educational Resource Discovery Index, ERuDIte, 
+Specifically, the DSEO is part of the Educational Resource Discovery Index, [ERuDIte](https://bigdatau.ini.usc.edu/about_erudite), 
 and it serves to provide additional descriptors to learning resource metadata.</span> 
 
 ## Contact
