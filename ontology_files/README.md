@@ -3,6 +3,7 @@ This directory contains the source files for generating the visualizations on [h
 
 To generate PDFs from the files, run:
 * dot -Tpdf DOTFILE.dot > DOTFILE.pdf
+
 To generate PNGs from the files, run:
 * dot -Tpng DOTFILE.dot > DOTFILE.png
 
