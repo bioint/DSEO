@@ -1,8 +1,8 @@
 # Visualizations
-<span style="color:black">DSEO consists of six dimensions with hierarchical terms. 
+<span style="color:black"> The DSEO consists of six dimensions with hierarchical terms. 
 Each dimension serves to answer a specific question about a data science learning resource.</span>
 
-<span style="color:black">In the original design of DSEO, every term was an instance of a
+<span style="color:black">In the original design of the DSEO, every term was an instance of a
 [SKOS](https://www.w3.org/2004/02/skos/) concept, and all concept instances were connected 
 with the broaderTransitive property. However, for the purposes of browsing on BioPortal, we created 
 a version of DSEO that has a class/subclass structure. This is seen in the ttl file found
