@@ -6,8 +6,8 @@ ontology is designed with automatic assignment in mind.
 We expect learners to use DSEO terms to help them find the resources they need for the
 data science problems they are trying to solve. Thus, we wanted the terms in DSEO to allow
 learners to find resources relevant to where they are in the data analysis life cycle, what
-field where they are applying data science to, what datatypes they are working with, what
-programming tools that they prefer, what modality they want to use to learn, and 
+field they are applying data science to, what datatypes they are working with, what
+programming tools they prefer, what modality they want to use to learn, and 
 what level of difficulty is appropriate for them.
 
 Early in the development process, we looked at MOOC specializations and degree programs to
