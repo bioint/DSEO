@@ -17,24 +17,24 @@ show which dimension names can and cannot be used as a tag.
 
 ## Data Science Process (8 concepts)
 ### What stages of the data science process will this resource help me with?
-[![datasci]({{ "/assets/data_science_process.png" | absolute_url }})]({{ "/assets/data_science_process.png" | absolute_url }})
+[![datasci]({{ "/assets/ontology-images/data_science_process.png" | absolute_url }})]({{ "/assets/ontology-images/data_science_process.png" | absolute_url }})
 
 ## Domain (74 concepts)
 ### What field of study does this resource focus on?
-[![domain]({{ "/assets/domain.png" | absolute_url }})]({{ "/assets/domain.png" | absolute_url }})
+[![domain]({{ "/assets/ontology-images/domain.png" | absolute_url }})]({{ "/assets/ontology-images/domain.png" | absolute_url }})
 
 ## Datatype (18 concepts)
 ### What types of data are addressed in the resource?
-[![datatype]({{ "/assets/datatype.png" | absolute_url }})]({{ "/assets/datatype.png" | absolute_url }})
+[![datatype]({{ "/assets/ontology-images/datatype.png" | absolute_url }})]({{ "/assets/ontology-images/datatype.png" | absolute_url }})
 
 ## Programming Tool (13 concepts)
 ### What programming tool is used in or taught by this resource?
-[![programming_tool]({{ "/assets/programming_tool.png" | absolute_url }})]({{ "/assets/programming_tool.png" | absolute_url }})
+[![programming_tool]({{ "/assets/ontology-images/programming_tool.png" | absolute_url }})]({{ "/assets/ontology-images/programming_tool.png" | absolute_url }})
 
 ## Resource Format (2 concepts)
 ### How is this resource presented?
-[![resource_format]({{ "/assets/resource_format.png" | absolute_url }})]({{ "/assets/resource_format.png" | absolute_url }})
+[![resource_format]({{ "/assets/ontology-images/resource_format.png" | absolute_url }})]({{ "/assets/ontology-images/resource_format.png" | absolute_url }})
 
 ## Resource Depth (2 concept)
 ### How advanced is this resource?
-[![resource_format]({{ "/assets/resource_depth.png" | absolute_url }})]({{ "/assets/resource_depth.png" | absolute_url }})
+[![resource_format]({{ "/assets/ontology-images/resource_depth.png" | absolute_url }})]({{ "/assets/ontology-images/resource_depth.png" | absolute_url }})
