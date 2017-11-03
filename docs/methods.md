@@ -36,3 +36,6 @@ with any parents, grandparents, etc.
 
 See [Visualizations]({{ "/visualizations.html" | absolute_url }}) for more information 
 on each dimension and the terms in each.
+
+We discussed DSEO and the automatic assignment procedure along with the methods involved
+in building ERuDIte at the [BigScholar workshop at WWW 2017](https://dl.acm.org/citation.cfm?id=3053060).
