@@ -1,0 +1,8 @@
+digraph {
+    rankdir = LR;
+       
+    video -> resource_format [color = "black", label = "skos:broaderTransitive"]
+    written_documents -> resource_format [color = "black", label = "skos:broaderTransitive"]
+    
+    {rank=same; video, written_documents}
+}

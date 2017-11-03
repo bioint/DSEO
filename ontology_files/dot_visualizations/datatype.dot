@@ -1,0 +1,30 @@
+digraph {
+    
+    rankdir = LR;
+    
+    genomic_proteomic_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    big_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    text_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    audio_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    video_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    image_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    spatial_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    streaming_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    time_series_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    graph_data -> datatype [color = "black", label = "skos:broaderTransitive"]
+    
+    GIS -> spatial_data [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    JSON -> datatype [color = "black", label = "skos:broaderTransitiveInstantive"]
+    tabular_data -> datatype [color = "black", label = "skos:broaderTransitiveInstantive"]
+    XML -> datatype [color = "black", label = "skos:broaderTransitiveInstantive"]
+    HTML -> datatype [color = "black", label = "skos:broaderTransitiveInstantive"]
+    
+    neuroimaging -> image_data [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    RDF -> graph_data [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    electronic_health_record -> datatype [color = "black", label = "skos:broaderTransitive"]
+
+    {rank=same; genomic_proteomic_data, big_data, text_data, audio_data, video_data, image_data, spatial_data, streaming_data, time_series_data, graph_data, electronic_health_record, JSON, tabular_data, HTML, XML}
+}

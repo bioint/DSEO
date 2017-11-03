@@ -1,0 +1,20 @@
+digraph {
+    rankdir = LR;
+    
+    R -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Python -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    MATLAB_Octave -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Hadoop -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Spark -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    JavaScript -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Java -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    C -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    SQL -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Perl -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Galaxy -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    Excel -> programming_tool [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    C [label = "C_C++"]
+    
+    {rank=same; R, Python, MATLAB_Octave, Hadoop, Spark, JavaScript, Java, C, SQL, Perl, Galaxy, Excel}
+}

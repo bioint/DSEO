@@ -1,0 +1,112 @@
+digraph{
+    rankdir = LR;
+    
+    mathematics -> domain [color = "black", label = "skos:broaderTransitive"]
+    computer_science -> domain [color = "black", label = "skos:broaderTransitive"]
+    social_sciences_humanities -> domain [color = "black", label = "skos:broaderTransitive"]
+    biology -> domain [color = "black", label = "skos:broaderTransitive"]
+    business_analytics -> domain [color = "black", label = "skos:broaderTransitive"]
+    economics -> domain [color = "black", label = "skos:broaderTransitive"]
+    social_sciences_humanities -> domain [color = "black", label = "skos:broaderTransitive"]
+    engineering -> domain [color = "black", label = "skos:broaderTransitive"]
+    physics -> domain [color = "black", label = "skos:broaderTransitive"]
+    chemistry -> domain [color = "black", label = "iskos:nScheme"]
+    medicine_healthcare -> domain [color = "black", label = "skos:broaderTransitive"]
+    
+    ethics -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    history -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    linear_algebra -> mathematics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    probability_statistics -> mathematics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    optimization -> mathematics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    graph_analytics -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    artificial_intelligence -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    databases -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    high_performance_computing -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    information_retrieval -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    programming -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    security -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    mobile_devices -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    sensor_networks_iot -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    cloud_computing -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    education -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    psychology -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    pharmacology_drug_discovery -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    molecular_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    cell_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    chemical_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    developmental_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    ecology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    evolutionary_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    neuroscience -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    physiology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    structural_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    marketing_analytics -> business_analytics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    precision_medicine -> medicine_healthcare [color = "darkorchid2", label = "skos:broaderTransitive"]
+    public_health_epidemiology -> medicine_healthcare [color = "darkorchid2", label = "skos:broaderTransitive"]
+    research_methodology -> medicine_healthcare [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    bioinformatics_computational_biology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    bioinformatics_computational_biology -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    bioinformatics_computational_biology -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    neuroinformatics -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    neuroinformatics -> neuroscience [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    biotechnology -> biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    biotechnology -> engineering [color = "darkorchid2", label = "skos:broaderTransitive"]
+    biotechnology -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+
+    bayesian_methods -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    gaussian_processes -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    markov_processes -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    monte_carlo_methods -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    machine_learning -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    machine_learning -> artificial_intelligence [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    natural_language_processing -> artificial_intelligence [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    knowledge_representation -> artificial_intelligence [color = "darkorchid2", label = "skos:broaderTransitive"]
+    knowledge_representation -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    graph_database -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
+    relational_database -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
+    NoSQL -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
+    parallel_database -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    genetics -> molecular_biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    proteomics -> molecular_biology [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    unsupervised_learning -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    ensemble_learning -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    neural_networks -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    recommender_system -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    probabilistic_graphical_model -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    kernel_methods -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    reinforcement_learning -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    supervised_learning -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    active_learning -> machine_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    association_rule_learning -> unsupervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    dimensionality_reduction -> unsupervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    clustering -> unsupervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    topic_model -> probabilistic_graphical_model [color = "darkorchid2", label = "skos:broaderTransitive"]
+    causality -> probabilistic_graphical_model [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    regression -> supervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    classification -> supervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    deep_learning -> neural_networks [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    social_media_analysis -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    social_media_analysis -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    {rank=same; mathematics, computer_science, social_sciences_humanities, biology, business_analytics, economics, social_sciences_humanities, engineering, physics, chemistry, medicine_healthcare}
+}

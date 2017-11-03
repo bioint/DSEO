@@ -1,0 +1,9 @@
+digraph {
+    rankdir = LR;
+    
+    introductory -> resource_depth [color = "black", label = "skos:broaderTransitive"]
+    advanced -> resource_depth [color = "black", label = "skos:broaderTransitive"]
+    
+    {rank=same; introductory, advanced}
+
+}

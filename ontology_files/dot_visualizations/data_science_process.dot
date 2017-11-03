@@ -1,0 +1,13 @@
+digraph {
+    rankdir = LR;
+
+    data_collection -> data_science_process [ color="black", label = "skos:broaderTransitive"]
+    data_cleaning -> data_science_process [ color="black", label = "skos:broaderTransitive"]
+    data_integration -> data_science_process [ color="black", label = "skos:broaderTransitive"]
+    data_exploration ->  data_science_process [ color="black", label = "skos:broaderTransitive"]
+    data_analysis -> data_science_process [ color="black", label = "skos:broaderTransitive"]
+    data_visualization -> data_science_process [ color="black", label = "skos:broaderTransitive"]
+    reproducibility -> data_science_process [ color="black", label = "skos:broaderTransitive"]
+
+    {rank=same; data_collection, data_cleaning, data_integration, data_exploration, data_analysis, data_visualization, reproducibility}
+}
