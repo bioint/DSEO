@@ -2,7 +2,7 @@
 
 #### It was designed with a data science practicioner's workflow in mind.
 
-Download the DSEO Turtle file from [Github](https://github.com/bioint/DSEO) or [BioPortal](https://bioportal.bioontology.org/ontologies/DSEO).
+Download the latest DSEO Turtle file from [HERE]({{ "/assets/ontology/dseo-current.ttl" | absolute_url }}) or [BioPortal](https://bioportal.bioontology.org/ontologies/DSEO).
 
 See an example of how DSEO can be used for facets in search and filtering [HERE](https://bigdatau.ini.usc.edu/search?query=machine+learning).
 
