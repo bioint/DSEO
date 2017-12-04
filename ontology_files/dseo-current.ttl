@@ -482,4 +482,12 @@
 
 <https://bigdatau.org/linkedData/dseo#datatype> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "datatype" .
+    
+<https://bigdatau.org/linkedData/dseo#neuroinformatics> a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "neuroinformatics" ;
+    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#neuroscience> .
+    
+<https://bigdatau.org/linkedData/dseo#neuroinformatics> a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "neuroinformatics" ;
+    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
 
