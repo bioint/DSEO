@@ -5,489 +5,489 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://bigdatau.org/linkedData/dseo#C_C++> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#C_C++> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "C_C++" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#Excel> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Excel> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Excel" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#GIS> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#GIS> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "GIS" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#spatial_data> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#spatial_data> .
 
-<https://bigdatau.org/linkedData/dseo#Galaxy> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Galaxy> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Galaxy" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#HTML> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#HTML> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "HTML" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#Hadoop> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Hadoop> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Hadoop" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#JSON> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#JSON> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "JSON" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#Java> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Java> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Java" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#JavaScript> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#JavaScript> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "JavaScript" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#MATLAB_Octave> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#MATLAB_Octave> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "MATLAB_Octave" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#NoSQL> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#NoSQL> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "NoSQL" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#databases> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#databases> .
 
-<https://bigdatau.org/linkedData/dseo#Perl> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Perl> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Perl" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#Python> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Python> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Python" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#R> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#R> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "R" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#RDF> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#RDF> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "RDF" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#graph_data> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#graph_data> .
 
-<https://bigdatau.org/linkedData/dseo#SQL> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#SQL> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "SQL" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#Spark> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#Spark> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "Spark" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#programming_tool> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> .
 
-<https://bigdatau.org/linkedData/dseo#XML> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#XML> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "XML" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#active_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#active_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "active_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#advanced> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#advanced> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "advanced" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#resource_depth> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#resource_depth> .
 
-<https://bigdatau.org/linkedData/dseo#association_rule_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#association_rule_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "association_rule_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#unsupervised_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#unsupervised_learning> .
 
-<https://bigdatau.org/linkedData/dseo#audio_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#audio_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "audio_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#bayesian_methods> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#bayesian_methods> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "bayesian_methods" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#probability_statistics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#probability_statistics> .
 
-<https://bigdatau.org/linkedData/dseo#big_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#big_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "big_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#bioinformatics_computational_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#bioinformatics_computational_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "bioinformatics_computational_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#biotechnology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#biotechnology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "biotechnology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#causality> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#causality> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "causality" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#probabilistic_graphical_model> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#probabilistic_graphical_model> .
 
-<https://bigdatau.org/linkedData/dseo#cell_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#cell_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "cell_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#chemical_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#chemical_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "chemical_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#chemistry> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#chemistry> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "chemistry" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#classification> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#classification> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "classification" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#supervised_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#supervised_learning> .
 
-<https://bigdatau.org/linkedData/dseo#cloud_computing> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#cloud_computing> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "cloud_computing" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#clustering> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#clustering> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "clustering" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#unsupervised_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#unsupervised_learning> .
 
-<https://bigdatau.org/linkedData/dseo#data_analysis> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_analysis> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_analysis" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#data_cleaning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_cleaning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_cleaning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#data_collection> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_collection> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_collection" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#data_exploration> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_exploration> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_exploration" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#data_integration> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_integration> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_integration" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#data_visualization> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_visualization> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_visualization" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#deep_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#deep_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "deep_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#neural_networks> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#neural_networks> .
 
-<https://bigdatau.org/linkedData/dseo#developmental_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#developmental_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "developmental_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#dimensionality_reduction> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#dimensionality_reduction> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "dimensionality_reduction" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#unsupervised_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#unsupervised_learning> .
 
-<https://bigdatau.org/linkedData/dseo#ecology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#ecology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "ecology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#economics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#economics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "economics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#education> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#education> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "education" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#social_sciences_humanities> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#social_sciences_humanities> .
 
-<https://bigdatau.org/linkedData/dseo#electronic_health_record> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#electronic_health_record> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "electronic_health_record" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#engineering> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#engineering> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "engineering" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#ensemble_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#ensemble_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "ensemble_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#ethics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#ethics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "ethics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#social_sciences_humanities> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#social_sciences_humanities> .
 
-<https://bigdatau.org/linkedData/dseo#evolutionary_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#evolutionary_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "evolutionary_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#gaussian_processes> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#gaussian_processes> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "gaussian_processes" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#probability_statistics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#probability_statistics> .
 
-<https://bigdatau.org/linkedData/dseo#genetics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#genetics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "genetics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#molecular_biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#molecular_biology> .
 
-<https://bigdatau.org/linkedData/dseo#genomic_proteomic_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#genomic_proteomic_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "genomic_proteomic_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#graph_analytics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#graph_analytics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "graph_analytics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#graph_database> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#graph_database> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "graph_database" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#databases> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#databases> .
 
-<https://bigdatau.org/linkedData/dseo#high_performance_computing> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#high_performance_computing> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "high_performance_computing" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#history> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#history> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "history" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#social_sciences_humanities> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#social_sciences_humanities> .
 
-<https://bigdatau.org/linkedData/dseo#information_retrieval> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#information_retrieval> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "information_retrieval" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#introductory> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#introductory> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "introductory" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#resource_depth> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#resource_depth> .
 
-<https://bigdatau.org/linkedData/dseo#kernel_methods> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#kernel_methods> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "kernel_methods" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#knowledge_representation> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#knowledge_representation> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "knowledge_representation" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#databases> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#databases> .
 
-<https://bigdatau.org/linkedData/dseo#linear_algebra> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#linear_algebra> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "linear_algebra" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#mathematics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#mathematics> .
 
-<https://bigdatau.org/linkedData/dseo#marketing_analytics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#marketing_analytics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "marketing_analytics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#business_analytics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#business_analytics> .
 
-<https://bigdatau.org/linkedData/dseo#markov_processes> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#markov_processes> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "markov_processes" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#probability_statistics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#probability_statistics> .
 
-<https://bigdatau.org/linkedData/dseo#mobile_devices> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#mobile_devices> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "mobile_devices" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#monte_carlo_methods> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#monte_carlo_methods> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "monte_carlo_methods" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#probability_statistics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#probability_statistics> .
 
-<https://bigdatau.org/linkedData/dseo#natural_language_processing> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#natural_language_processing> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "natural_language_processing" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#artificial_intelligence> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#artificial_intelligence> .
 
-<https://bigdatau.org/linkedData/dseo#neuroimaging> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#neuroimaging> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "neuroimaging" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#image_data> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#image_data> .
 
-<https://bigdatau.org/linkedData/dseo#neuroscience> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#neuroscience> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "neuroscience" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#optimization> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#optimization> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "optimization" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#mathematics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#mathematics> .
 
-<https://bigdatau.org/linkedData/dseo#parallel_database> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#parallel_database> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "parallel_database" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#databases> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#databases> .
 
-<https://bigdatau.org/linkedData/dseo#pharmacology_drug_discovery> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#pharmacology_drug_discovery> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "pharmacology_drug_discovery" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#physics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#physics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "physics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#physiology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#physiology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "physiology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#precision_medicine> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#precision_medicine> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "precision_medicine" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#medicine_healthcare> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#medicine_healthcare> .
 
-<https://bigdatau.org/linkedData/dseo#programming> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#programming> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "programming" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#proteomics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#proteomics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "proteomics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#molecular_biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#molecular_biology> .
 
-<https://bigdatau.org/linkedData/dseo#psychology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#psychology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "psychology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#social_sciences_humanities> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#social_sciences_humanities> .
 
-<https://bigdatau.org/linkedData/dseo#public_health_epidemiology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#public_health_epidemiology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "public_health_epidemiology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#medicine_healthcare> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#medicine_healthcare> .
 
-<https://bigdatau.org/linkedData/dseo#recommender_system> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#recommender_system> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "recommender_system" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#regression> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#regression> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "regression" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#supervised_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#supervised_learning> .
 
-<https://bigdatau.org/linkedData/dseo#reinforcement_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#reinforcement_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "reinforcement_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#relational_database> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#relational_database> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "relational_database" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#databases> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#databases> .
 
-<https://bigdatau.org/linkedData/dseo#reproducibility> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#reproducibility> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "reproducibility" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#data_science_process> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> .
 
-<https://bigdatau.org/linkedData/dseo#research_methodology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#research_methodology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "research_methodology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#medicine_healthcare> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#medicine_healthcare> .
 
-<https://bigdatau.org/linkedData/dseo#security> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#security> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "security" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#sensor_networks_iot> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#sensor_networks_iot> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "sensor_networks_iot" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#social_media_analysis> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#social_media_analysis> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "social_media_analysis" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#streaming_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#streaming_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "streaming_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#structural_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#structural_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "structural_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#tabular_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#tabular_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "tabular_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#text_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#text_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "text_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#time_series_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#time_series_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "time_series_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#topic_model> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#topic_model> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "topic_model" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#probabilistic_graphical_model> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#probabilistic_graphical_model> .
 
-<https://bigdatau.org/linkedData/dseo#video> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#video> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "video" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#resource_format> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#resource_format> .
 
-<https://bigdatau.org/linkedData/dseo#video_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#video_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "video_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#written_documents> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#written_documents> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "written_documents" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#resource_format> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#resource_format> .
 
-<https://bigdatau.org/linkedData/dseo#business_analytics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#business_analytics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "business_analytics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#graph_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#graph_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "graph_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#image_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#image_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "image_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#neural_networks> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#neural_networks> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "neural_networks" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#spatial_data> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#spatial_data> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "spatial_data" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#datatype> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> .
 
-<https://bigdatau.org/linkedData/dseo#artificial_intelligence> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#artificial_intelligence> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "artificial_intelligence" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#molecular_biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#molecular_biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "molecular_biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#biology> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#biology> .
 
-<https://bigdatau.org/linkedData/dseo#probabilistic_graphical_model> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#probabilistic_graphical_model> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "probabilistic_graphical_model" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#resource_depth> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#resource_depth> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "resource_depth" .
 
-<https://bigdatau.org/linkedData/dseo#resource_format> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#resource_format> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "resource_format" .
 
-<https://bigdatau.org/linkedData/dseo#supervised_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#supervised_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "supervised_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#mathematics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#mathematics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "mathematics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#medicine_healthcare> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#medicine_healthcare> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "medicine_healthcare" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#unsupervised_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#unsupervised_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "unsupervised_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#machine_learning> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> .
 
-<https://bigdatau.org/linkedData/dseo#probability_statistics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#probability_statistics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "probability_statistics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#mathematics> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#mathematics> .
 
-<https://bigdatau.org/linkedData/dseo#social_sciences_humanities> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#social_sciences_humanities> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "social_sciences_humanities" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#databases> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#databases> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "databases" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
-<https://bigdatau.org/linkedData/dseo#data_science_process> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#data_science_process> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "data_science_process" .
 
-<https://bigdatau.org/linkedData/dseo#machine_learning> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#machine_learning> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "machine_learning" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#artificial_intelligence> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#artificial_intelligence> .
 
-<https://bigdatau.org/linkedData/dseo#domain> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#domain> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "domain" .
 
-<https://bigdatau.org/linkedData/dseo#biology> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#biology> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "biology" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#computer_science> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "computer_science" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#domain> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#domain> .
 
-<https://bigdatau.org/linkedData/dseo#programming_tool> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#programming_tool> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "programming_tool" .
 
-<https://bigdatau.org/linkedData/dseo#datatype> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#datatype> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "datatype" .
     
-<https://bigdatau.org/linkedData/dseo#neuroinformatics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#neuroinformatics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "neuroinformatics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#neuroscience> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#neuroscience> .
     
-<https://bigdatau.org/linkedData/dseo#neuroinformatics> a <http://www.w3.org/2002/07/owl#Class> ;
+<https://bigdatau.ini.usc.edu/linked-data/dseo#neuroinformatics> a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:label "neuroinformatics" ;
-    rdfs:subClassOf <https://bigdatau.org/linkedData/dseo#computer_science> .
+    rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo#computer_science> .
 
