@@ -10,7 +10,7 @@ digraph{
     social_sciences_humanities -> domain [color = "black", label = "skos:broaderTransitive"]
     engineering -> domain [color = "black", label = "skos:broaderTransitive"]
     physics -> domain [color = "black", label = "skos:broaderTransitive"]
-    chemistry -> domain [color = "black", label = "iskos:nScheme"]
+    chemistry -> domain [color = "black", label = "skos:broaderTransitive"]
     medicine_healthcare -> domain [color = "black", label = "skos:broaderTransitive"]
     
     ethics -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
