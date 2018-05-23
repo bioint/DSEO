@@ -7,7 +7,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-_:genid1140192140 a owl:Ontology .
+_:genid1508356267 a owl:Ontology .
 # 
 # 
 # #################################################################
@@ -220,7 +220,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of living things" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Biology" ;
 	rdfs:label "Biology" .
@@ -236,7 +236,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#business_analytics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#business_analytics> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study and application of statistics and probability to evaluate and inform business decisions" ;
 	rdfs:label "Business Analytics" .
 # 
@@ -267,7 +267,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#chemistry
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#chemistry> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of the composition, structure, properties, and change of matter" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Chemistry" ;
 	rdfs:label "Chemistry" .
@@ -297,7 +297,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of theory, experimentation, and engineering for the design and use of computers" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Computer_science" ;
 	rdfs:label "Computer Science" .
@@ -388,6 +388,12 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Dimensionality_reduction" ;
 	rdfs:label "Dimensionality Reduction" .
 # 
+# https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain
+
+<https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> a owl:Class ;
+	rdfs:comment "is a dimension name; field or topic of study covered by a resource" ;
+	rdfs:label "Domain" .
+# 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#ecology
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#ecology> a owl:Class ;
@@ -399,7 +405,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#economics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#economics> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of the consumption and movement of good in relation to people's behavior" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Economics" ;
 	rdfs:label "Economics" .
@@ -421,7 +427,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#engineering
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#engineering> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Application of science and mathematics to design, study, and/or maintain structures, machines, or processes" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Engineering" ;
 	rdfs:label "Engineering" .
@@ -576,7 +582,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mathematics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mathematics> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of quantity, structure, space, and change" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Mathematics" ;
 	rdfs:label "Mathematics" .
@@ -584,7 +590,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#medicine_healthcare
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#medicine_healthcare> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Science and practice of diagnosing, treating, and preventing disease" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Health_care" , "https://en.wikipedia.org/wiki/Medicine" ;
 	rdfs:label "Medicine/Healthcare" .
@@ -674,7 +680,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#physics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#physics> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of matter and its behavior through space and time" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Physics" ;
 	rdfs:label "Physics" .
@@ -829,7 +835,7 @@ skos:definition a owl:AnnotationProperty .
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities> a owl:Class ;
-	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> ;
+	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of people and their interactions with each other, which includes the development and progress of society and culture" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Humanities" , "https://en.wikipedia.org/wiki/Social_science" ;
 	rdfs:label "Social Sciences/Humanities" .
@@ -888,12 +894,6 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:comment "Data that captured over successive points in time" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Time_series" ;
 	rdfs:label "Time Series Data" .
-# 
-# https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic
-
-<https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic> a owl:Class ;
-	rdfs:comment "is a dimension name; field or topic of study covered by a resource" ;
-	rdfs:label "Topic" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic_model
 
