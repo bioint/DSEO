@@ -7,7 +7,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-_:genid1508356267 a owl:Ontology .
+_:genid1492902706 a owl:Ontology .
 # 
 # 
 # #################################################################
@@ -21,9 +21,29 @@ _:genid1508356267 a owl:Ontology .
 
 owl:sameAs a owl:AnnotationProperty .
 # 
+# http://www.w3.org/2004/02/skos/core#broadMatch
+
+skos:broadMatch a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#closeMatch
+
+skos:closeMatch a owl:AnnotationProperty .
+# 
 # http://www.w3.org/2004/02/skos/core#definition
 
 skos:definition a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#exactMatch
+
+skos:exactMatch a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#narrowMatch
+
+skos:narrowMatch a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#relatedMatch
+
+skos:relatedMatch a owl:AnnotationProperty .
 # 
 # 
 # 
@@ -39,14 +59,17 @@ skos:definition a owl:AnnotationProperty .
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Excel> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Microsoft Office spreadsheet tool often used for analysis in business, biology, and social sciences" ;
-	rdfs:label "Excel" .
+	rdfs:label "Excel" ;
+	rdfs:seeAlso "https://products.office.com/en-us/excel" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Microsoft_Excel" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#GIS
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#GIS> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#spatial_data> ;
 	rdfs:comment "Spatial, geographic data; describes the exact geographic information system (GIS) format" ;
-	rdfs:label "GIS" .
+	rdfs:label "GIS" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Geographic_information_system" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Galaxy
 
@@ -54,20 +77,26 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Web application that allows processing of large datasets for analysis in bioinformatics" ;
 	rdfs:label "Galaxy" ;
-	rdfs:seeAlso "https://galaxyproject.org/tutorials/g101/" .
+	rdfs:seeAlso "https://galaxyproject.org/tutorials/g101/" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Galaxy_(computational_biology)" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#HTML
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#HTML> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
-	rdfs:label "HTML" .
+	rdfs:comment "Markup language used to create webpages and web applications; often encountered in web scraping" ;
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/HTML" ;
+	rdfs:label "HTML" ;
+	skos:exactMatch "http://edamontology.org/format_2331" , "https://en.wikipedia.org/wiki/HTML" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Hadoop
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Hadoop> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Open source Apache project used for distributed computing; applies to the full Hadoop stack, which includes the Hadoop implementation of MapReduce" ;
-	rdfs:label "Hadoop" .
+	rdfs:label "Hadoop" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/MapReduce" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Apache_Hadoop" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#JSON
 
@@ -75,43 +104,54 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data interchange format that uses attribute-value pairs to encode data that needs to be transmitted; often the output format of an API; often used for browser/server communication" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/JSON" ;
-	rdfs:label "JSON" .
+	rdfs:label "JSON" ;
+	skos:exactMatch "http://edamontology.org/format_3464" , "https://en.wikipedia.org/wiki/JSON" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Java
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Java> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
-	rdfs:comment "Programming language designed to be as platform independent as possible; popular language for desktop and mobile applications" , "https://en.wikipedia.org/wiki/Java_(programming_language)" ;
-	rdfs:label "Java" .
+	rdfs:comment "Programming language designed to be as platform independent as possible; popular language for desktop and mobile applications" ;
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Java_(programming_language)" ;
+	rdfs:label "Java" ;
+	rdfs:seeAlso "https://www.oracle.com/java/index.html" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Java_(programming_language)" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#JavaScript
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#JavaScript> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Programming language fundamental to web content; used often for data applications and visualization (i.e. d3.js) in data science" ;
-	rdfs:label "JavaScript" .
+	rdfs:label "JavaScript" ;
+	rdfs:seeAlso "https://developer.mozilla.org/en-US/docs/Web/JavaScript" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/JavaScript" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#MATLAB_Octave
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#MATLAB_Octave> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Numerical computing environment focused primarily on the use of matrices used for scientific computing" ;
-	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/MATLAB" ;
-	rdfs:label "MATLAB/Octave" .
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/GNU_Octave" , "https://en.wikipedia.org/wiki/MATLAB" ;
+	rdfs:label "MATLAB/Octave" ;
+	rdfs:seeAlso "https://www.gnu.org/software/octave/" , "https://www.mathworks.com/products/matlab.html?s_tid=hp_products_matlab" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/GNU_Octave" , "https://en.wikipedia.org/wiki/MATLAB" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#NoSQL
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#NoSQL> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases> ;
 	rdfs:comment "Broad term used to identify data storage and representation systems that does not use a relational model; examples include key-value, document, and column systems" ;
-	rdfs:label "NoSQL" .
+	rdfs:label "NoSQL" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/NoSQL" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Perl
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Perl> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "General purpose, high-level programming language used often for system administration and bioinformatics; in bioinformatics, it is used for analysis" ;
-	rdfs:label "Perl" .
+	rdfs:label "Perl" ;
+	rdfs:seeAlso "https://www.perl.org/get.html" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Perl" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Python
 
@@ -119,7 +159,9 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "General purpose programming language often used in data science and scientific computing" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Python_(programming_language)" ;
-	rdfs:label "Python" .
+	rdfs:label "Python" ;
+	rdfs:seeAlso "https://www.python.org/" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Python_(programming_language)" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#R
 
@@ -127,7 +169,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Programming language for statistical computing and data visualization" ;
 	rdfs:label "R" ;
-	rdfs:seeAlso "https://www.r-project.org/about.html" .
+	rdfs:seeAlso "https://www.r-project.org/about.html" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/R_(programming_language)" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#RDF
 
@@ -135,28 +178,35 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_data> ;
 	rdfs:comment "Model for semantic web data; RDF is an exact format that is used to extract web graph data where resources are nodes and links connect the nodes" ;
 	rdfs:isDefinedBy "https://www.w3.org/RDF/" ;
-	rdfs:label "RDF" .
+	rdfs:label "RDF" ;
+	skos:broadMatch "http://edamontology.org/format_2195" , "http://edamontology.org/format_3748" ;
+	skos:exactMatch "http://edamontology.org/format_2376" , "https://en.wikipedia.org/wiki/Resource_Description_Framework" ;
+	skos:relatedMatch "http://edamontology.org/data_2353" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#SQL
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#SQL> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "short for Structured Query Language, which is a specialized programming language that has foundations in relational algebra and is used to define a relational model, manipulate data in a relational database, and control permissions and privileges in the database" ;
-	rdfs:label "SQL" .
+	rdfs:label "SQL" ;
+	skos:exactMatch "http://edamontology.org/format_3788" , "https://en.wikipedia.org/wiki/SQL" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Spark
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#Spark> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "Cluster-computing framework that allows for in-memory processing" ;
-	rdfs:label "Spark" .
+	rdfs:label "Spark" ;
+	rdfs:seeAlso "https://spark.apache.org/" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Apache_Spark" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#XML
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#XML> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Markup language used for web documents; can be a datatype encountered in web scraping" ;
-	rdfs:label "XML" .
+	rdfs:label "XML" ;
+	skos:exactMatch "http://edamontology.org/format_2332" , "https://en.wikipedia.org/wiki/XML" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#active_learning
 
@@ -164,7 +214,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Semi-supervised machine learning techniques in which a learning algorithm is able to interactively query the user (or some other information source) to obtain the desired outputs at new data points" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)" ;
-	rdfs:label "Active Learning" .
+	rdfs:label "Active Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#advanced
 
@@ -179,7 +230,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "The science and engineering of designing and implementing intelligent machines" ;
 	rdfs:label "Artificial Intelligence" ;
-	rdfs:seeAlso "http://www-formal.stanford.edu/jmc/whatisai/" .
+	rdfs:seeAlso "http://www-formal.stanford.edu/jmc/whatisai/" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Artificial_intelligence" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#association_rule_learning
 
@@ -187,27 +239,32 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#unsupervised_learning> ;
 	rdfs:comment "Unsupervised learning techniques where relations between variables in large databases are learned" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Association_rule_learning" ;
-	rdfs:label "Association Rule Learning" .
+	rdfs:label "Association Rule Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Association_rule_learning" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#audio_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#audio_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data from sound" ;
-	rdfs:label "Audio Data" .
+	rdfs:label "Audio Data" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Digital_audio" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#bayesian_methods
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#bayesian_methods> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "bayesian_methods" .
+	rdfs:comment "Statistical techniques that use Bayesian probabilities; techniques in modeling and estimation use a prior probability/distribution to inform estimation" ;
+	rdfs:label "Bayesian Methods" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Bayesian_statistics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#big_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#big_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Broad term used to describe a massive volume of data that will often require specialized tools and approaches to handle" ;
-	rdfs:label "Big Data" .
+	rdfs:label "Big Data" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Big_data" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#bioinformatics_computational_biology
 
@@ -215,7 +272,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Application of computer science, mathematics, probability, and statistics to study biological data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Bioinformatics" , "https://en.wikipedia.org/wiki/Computational_biology" ;
-	rdfs:label "Bioinformatics/Computational Biology" .
+	rdfs:label "Bioinformatics/Computational Biology" ;
+	skos:narrowMatch "http://edamontology.org/topic_0091" , "http://edamontology.org/topic_3307" , "https://en.wikipedia.org/wiki/Bioinformatics" , "https://en.wikipedia.org/wiki/Computational_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology
 
@@ -223,7 +281,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of living things" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Biology" ;
-	rdfs:label "Biology" .
+	rdfs:label "Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_3070" , "https://en.wikipedia.org/wiki/Biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biotechnology
 
@@ -231,22 +290,24 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Development of products based on or applied to living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Biotechnology" ;
-	rdfs:label "Biotechnology" .
+	rdfs:label "Biotechnology" ;
+	skos:exactMatch "http://edamontology.org/topic_3297" , "https://en.wikipedia.org/wiki/Biotechnology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#business_analytics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#business_analytics> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study and application of statistics and probability to evaluate and inform business decisions" ;
-	rdfs:label "Business Analytics" .
+	rdfs:label "Business Analytics" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Business_analytics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#causality
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#causality> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probabilistic_graphical_model> ;
 	rdfs:comment "Describes machine learning techniques for causal inferencing that rely on a probabilistic graph" ;
-	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Causal_inference" ;
-	rdfs:label "Causality" .
+	rdfs:label "Causality" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Causal_inference" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#cell_biology
 
@@ -254,7 +315,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of the structures and functions of cells in living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Cell_biology" ;
-	rdfs:label "Cell Biology" .
+	rdfs:label "Cell Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_2229" , "https://en.wikipedia.org/wiki/Cell_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#chemical_biology
 
@@ -262,7 +324,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Application of chemical techniques, tools, and analyses, and often compounds produced through synthetic chemistry, to the study and manipulation of biological systems" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Chemical_biology" ;
-	rdfs:label "Chemical Biology" .
+	rdfs:label "Chemical Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_3369" , "https://en.wikipedia.org/wiki/Chemical_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#chemistry
 
@@ -270,14 +333,16 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of the composition, structure, properties, and change of matter" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Chemistry" ;
-	rdfs:label "Chemistry" .
+	rdfs:label "Chemistry" ;
+	skos:exactMatch "http://edamontology.org/topic_3314" , "https://en.wikipedia.org/wiki/Chemistry" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#classification
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#classification> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#supervised_learning> ;
 	rdfs:comment "Supervised machine learning methods used for categorical, discrete dependent variables" ;
-	rdfs:label "Classification" .
+	rdfs:label "Classification" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Statistical_classification" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#cloud_computing
 
@@ -285,14 +350,16 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "On-demand internet based computing that uses shared physical resources; Amazon Web Services (AWS) is one of the most popular examples" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Cloud_computing" ;
-	rdfs:label "Cloud Computing" .
+	rdfs:label "Cloud Computing" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Cloud_computing" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#clustering
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#clustering> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#unsupervised_learning> ;
 	rdfs:comment "Unsupervised learning techniques where data points are organized into groups based on underlying structure" ;
-	rdfs:label "Clustering" .
+	rdfs:label "Clustering" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Cluster_analysis" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science
 
@@ -300,35 +367,44 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of theory, experimentation, and engineering for the design and use of computers" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Computer_science" ;
-	rdfs:label "Computer Science" .
+	rdfs:label "Computer Science" ;
+	skos:exactMatch "http://edamontology.org/topic_3316" , "https://en.wikipedia.org/wiki/Computer_science" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_analysis
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_analysis> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Applying machine learning, data mining, and statistical analyses to a dataset; includes the model building, validation, and calibration process" ;
-	rdfs:label "Data Analysis" .
+	rdfs:label "Data Analysis" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Data_analysis" ;
+	skos:narrowMatch "http://edamontology.org/operation_2945" ;
+	skos:relatedMatch "http://edamontology.org/operation_2238" , "http://edamontology.org/operation_2423" , "http://edamontology.org/operation_2426" , "http://edamontology.org/operation_3465" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_cleaning
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_cleaning> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Process of handling data inconsistencies (ex: spacing issues, NULL values, broken unicode) that interfere with analysis" ;
-	rdfs:label "Data Cleaning" .
+	rdfs:label "Data Cleaning" ;
+	skos:exactMatch "http://edamontology.org/topic_3572" , "https://en.wikipedia.org/wiki/Data_cleansing" ;
+	skos:relatedMatch "http://edamontology.org/operation_2428" , "http://edamontology.org/operation_3283" , "http://edamontology.org/operation_3695" , "http://edamontology.org/topic_0219" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_collection
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_collection> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Process of gathering data; can include experiment design and automated data collection via scraping or structured data extraction" ;
-	rdfs:label "Data Collection" .
+	rdfs:label "Data Collection" ;
+	skos:exactMatch "http://edamontology.org/topic_3077" , "https://en.wikipedia.org/wiki/Data_collection" ;
+	skos:relatedMatch "http://edamontology.org/topic_0219" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_exploration
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_exploration> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Preliminary analysis step where the data is summarized and visualized in order to understand what additional analytic techniques should be used" ;
-	rdfs:label "Data Exploration" .
+	rdfs:label "Data Exploration" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Data_exploration" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_integration
 
@@ -336,7 +412,10 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Combining data residing in different sources into a unified view for analysis and exploration" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Data_integration" ;
-	rdfs:label "Data Integration" .
+	rdfs:label "Data Integration" ;
+	skos:closeMatch "http://edamontology.org/topic_3366" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Data_integration" ;
+	skos:relatedMatch "http://edamontology.org/operation_0226" , "http://edamontology.org/operation_0335" , "http://edamontology.org/operation_1812" , "http://edamontology.org/operation_2990" , "http://edamontology.org/operation_3357" , "http://edamontology.org/operation_3359" , "http://edamontology.org/topic_3365" , "http://edamontology.org/topic_3489" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process
 
@@ -349,14 +428,18 @@ skos:definition a owl:AnnotationProperty .
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_visualization> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Presenting data in a graphical representation in order to explore existing dataset and/or present conclusions about a dataset" ;
-	rdfs:label "Data Visualization" .
+	rdfs:label "Data Visualization" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Data_visualization" ;
+	skos:narrowMatch "http://edamontology.org/operation_0337" , "http://edamontology.org/topic_0092" ;
+	skos:relatedMatch "http://edamontology.org/operation_3441" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Study and application of the organization of data in a structured representation" ;
-	rdfs:label "Databases" .
+	rdfs:label "Databases" ;
+	skos:exactMatch "http://edamontology.org/topic_3489" , "https://en.wikipedia.org/wiki/Database" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype
 
@@ -370,7 +453,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neural_networks> ;
 	rdfs:comment "Artificial neural networks that have multiple hidden layers" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Deep_learning" ;
-	rdfs:label "Deep Learning" .
+	rdfs:label "Deep Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Deep_learning" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#developmental_biology
 
@@ -378,7 +462,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of how living organisms grow and reproduce" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Developmental_biology" ;
-	rdfs:label "Developmental Biology" .
+	rdfs:label "Developmental Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_3064" , "https://en.wikipedia.org/wiki/Developmental_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#dimensionality_reduction
 
@@ -386,7 +471,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#unsupervised_learning> ;
 	rdfs:comment "Unsupervised learning techniques where a feature space is condensed" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Dimensionality_reduction" ;
-	rdfs:label "Dimensionality Reduction" .
+	rdfs:label "Dimensionality Reduction" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Dimensionality_reduction" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain
 
@@ -400,7 +486,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of interactions between living organisms and their environment" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Ecology" ;
-	rdfs:label "Ecology" .
+	rdfs:label "Ecology" ;
+	skos:exactMatch "http://edamontology.org/topic_0610" , "https://en.wikipedia.org/wiki/Ecology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#economics
 
@@ -408,21 +495,24 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of the consumption and movement of good in relation to people's behavior" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Economics" ;
-	rdfs:label "Economics" .
+	rdfs:label "Economics" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Economics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#education
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#education> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities> ;
 	rdfs:comment "Study and practice of learning and teaching techniques" ;
-	rdfs:label "Education" .
+	rdfs:label "Education" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Education" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#electronic_health_record
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#electronic_health_record> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data captured in electronic health record systems used by healthcare providers and hospitals; Epic and Cerner are two of the largest and most well known EHR systems" ;
-	rdfs:label "Electronic Health Record" .
+	rdfs:label "Electronic Health Record" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Electronic_health_record" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#engineering
 
@@ -430,7 +520,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Application of science and mathematics to design, study, and/or maintain structures, machines, or processes" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Engineering" ;
-	rdfs:label "Engineering" .
+	rdfs:label "Engineering" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Engineering" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#ensemble_learning
 
@@ -438,14 +529,17 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning technique where multiple machine learning techniques are used to create a stronger model" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Ensemble_learning" ;
-	rdfs:label "Ensemble Learning" .
+	rdfs:label "Ensemble Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Ensemble_learning" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#ethics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#ethics> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities> ;
-	rdfs:comment "Study of philosophy related to the right and wrong; in the DSEO domain, most relevant for ethics in data science" , "https://en.wikipedia.org/wiki/Ethics" ;
-	rdfs:label "Ethics" .
+	rdfs:comment "Study of philosophy related to the right and wrong; in the DSEO domain, most relevant for ethics in data science" ;
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Ethics" ;
+	rdfs:label "Ethics" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Ethics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#evolutionary_biology
 
@@ -453,13 +547,16 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of the impacts of evolution on living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Evolutionary_biology" ;
-	rdfs:label "Evolutionary Biology" .
+	rdfs:label "Evolutionary Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_3299" , "https://en.wikipedia.org/wiki/Evolutionary_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#gaussian_processes
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#gaussian_processes> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "gaussian_processes" .
+	rdfs:comment "A collection of random variables indexed by time or space such that every finite collection of those random variables has a multivariate normal distribution" ;
+	rdfs:label "Gaussian Processes" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Gaussian_process" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#genetics
 
@@ -467,43 +564,51 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#molecular_biology> ;
 	rdfs:comment "Study of genes in living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Genetics" ;
-	rdfs:label "Genetics" .
+	rdfs:label "Genetics" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Genetics" ;
+	skos:narrowMatch "http://edamontology.org/topic_0622" , "http://edamontology.org/topic_3053" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#genomic_proteomic_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#genomic_proteomic_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "DNA, RNA and protein data; this tag should be used in combination with the genetics tag" ;
-	rdfs:label "Genomic Proteomic Data" .
+	rdfs:label "Genomic Proteomic Data" ;
+	skos:narrowMatch "http://edamontology.org/data_0850" , "http://edamontology.org/data_0860" , "http://edamontology.org/data_0914" , "http://edamontology.org/data_1255" , "http://edamontology.org/data_1459" , "http://edamontology.org/data_1460" , "http://edamontology.org/data_1916" , "http://edamontology.org/data_2019" , "http://edamontology.org/data_2044" , "http://edamontology.org/data_2534" , "http://edamontology.org/data_2603" , "http://edamontology.org/data_2914" , "http://edamontology.org/data_3498" , "https://en.wikipedia.org/wiki/Genome" , "https://en.wikipedia.org/wiki/Protein" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_analytics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_analytics> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Study of network/graph structure and the transmission of information over the structure" ;
-	rdfs:label "Graph Analytics" .
+	rdfs:label "Graph Analytics" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Graph_theory" ;
+	skos:narrowMatch "http://edamontology.org/operation_2497" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data representing nodes and edges in a network/graph structure" ;
-	rdfs:label "Graph Data" .
+	rdfs:label "Graph Data" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Graph_(abstract_data_type)" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_database
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#graph_database> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases> ;
 	rdfs:comment "Data storage system that uses graph structure in its model of representation" ;
-	rdfs:isDefinedBy "https://www.coursera.org/learn/data-manipulation" ;
-	rdfs:label "Graph Database" .
+	rdfs:label "Graph Database" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Graph_database" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#high_performance_computing
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#high_performance_computing> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Computing processes that involve parallelism to improve computation times; examples: parallel computing, grid computing, supercomputers" ;
-	rdfs:label "High Performance Computing" .
+	rdfs:label "High Performance Computing" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/High-performance_computing" ;
+	skos:relatedMatch "https://en.wikipedia.org/wiki/High-throughput_computing" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#history
 
@@ -511,14 +616,17 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities> ;
 	rdfs:comment "Study of the past based on existing documents" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/History" ;
-	rdfs:label "History" .
+	rdfs:label "History" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/History" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#image_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#image_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data from static images" ;
-	rdfs:label "Image Data" .
+	rdfs:label "Image Data" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Digital_image" ;
+	skos:narrowMatch "http://edamontology.org/data_2968" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#information_retrieval
 
@@ -526,7 +634,9 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Methods and approaches for extracting information from a data collection" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Information_retrieval" ;
-	rdfs:label "Information Retrieval" .
+	rdfs:label "Information Retrieval" ;
+	skos:broadMatch "http://edamontology.org/operation_0224" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Information_retrieval" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#introductory
 
@@ -541,7 +651,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning techniques that use kernel functions in the representation of features; Support Vector Machine is the most common kernel method used in machine learning" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Kernel_method" ;
-	rdfs:label "Kernel Methods" .
+	rdfs:label "Kernel Methods" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Kernel_method" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#knowledge_representation
 
@@ -549,7 +660,10 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases> ;
 	rdfs:comment "Representing a domain of knowlege in a machine-readble form; includes ontologies" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning" ;
-	rdfs:label "Knowledge Representation" .
+	rdfs:label "Knowledge Representation" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning" ;
+	skos:narrowMatch "http://edamontology.org/data_2353" , "http://edamontology.org/topic_0089" , "http://edamontology.org/topic_3345" ;
+	skos:relatedMatch "http://edamontology.org/topic_3365" , "http://edamontology.org/topic_3489" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#linear_algebra
 
@@ -557,27 +671,35 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mathematics> ;
 	rdfs:comment "Branch of mathematics focused on vector spaces and the mappings between them" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Linear_algebra" ;
-	rdfs:label "Linear Algebra" .
+	rdfs:label "Linear Algebra" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Linear_algebra" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#artificial_intelligence> ;
 	rdfs:comment "Techniques used to extract inferences from a dataset; can include model selection procedure and specific algorithms used" ;
-	rdfs:label "Machine Learning" .
+	rdfs:label "Machine Learning" ;
+	skos:exactMatch "http://edamontology.org/topic_3474" , "https://en.wikipedia.org/wiki/Machine_learning" ;
+	skos:narrowMatch "http://edamontology.org/topic_3473" , "https://en.wikipedia.org/wiki/Data_mining" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#marketing_analytics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#marketing_analytics> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#business_analytics> ;
 	rdfs:comment "Application of probabilty and statistics to answer questions about marketing" ;
-	rdfs:label "Marketing Analytics" .
+	rdfs:label "Marketing Analytics" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Analytics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#markov_processes
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#markov_processes> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "markov_processes" .
+	rdfs:comment "Random processes whose future probabilities are determined by its most recent values" ;
+	rdfs:isDefinedBy "http://mathworld.wolfram.com/MarkovProcess.html" ;
+	rdfs:label "Markov Processes" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Markov_property" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Markov_chain" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mathematics
 
@@ -585,7 +707,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of quantity, structure, space, and change" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Mathematics" ;
-	rdfs:label "Mathematics" .
+	rdfs:label "Mathematics" ;
+	skos:exactMatch "http://edamontology.org/topic_3315" , "https://en.wikipedia.org/wiki/Mathematics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#medicine_healthcare
 
@@ -593,14 +716,16 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Science and practice of diagnosing, treating, and preventing disease" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Health_care" , "https://en.wikipedia.org/wiki/Medicine" ;
-	rdfs:label "Medicine/Healthcare" .
+	rdfs:label "Medicine/Healthcare" ;
+	skos:narrowMatch "http://edamontology.org/topic_3303" , "https://en.wikipedia.org/wiki/Health_care" , "https://en.wikipedia.org/wiki/Medicine" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mobile_devices
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mobile_devices> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Design and usage of handheld computing" ;
-	rdfs:label "Mobile Devices" .
+	rdfs:label "Mobile Devices" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Mobile_device" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#molecular_biology
 
@@ -608,13 +733,17 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of the molecular basis of interactions between biomolecules" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Molecular_biology" ;
-	rdfs:label "Molecular Biology" .
+	rdfs:label "Molecular Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_3047" , "https://en.wikipedia.org/wiki/Molecular_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#monte_carlo_methods
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#monte_carlo_methods> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "monte_carlo_methods" .
+	rdfs:comment "Methods that use random sampling of a distribution to solve a problem" ;
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Monte_Carlo_method" ;
+	rdfs:label "Monte Carlo Methods" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Monte_Carlo_method" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#natural_language_processing
 
@@ -622,7 +751,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#artificial_intelligence> ;
 	rdfs:comment "Branch of artificial intelligence focused on computer and human understanding through their respective languages" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Natural_language_processing" ;
-	rdfs:label "Natural Language Processing" .
+	rdfs:label "Natural Language Processing" ;
+	skos:exactMatch "http://edamontology.org/topic_0218" , "https://en.wikipedia.org/wiki/Natural-language_processing" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neural_networks
 
@@ -630,7 +760,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning methods where neuronal layers are used to represent input transformations that lead to an output state" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Artificial_neural_network" ;
-	rdfs:label "Neural Networks" .
+	rdfs:label "Neural Networks" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Artificial_neural_network" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neuroimaging
 
@@ -638,14 +769,18 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#image_data> ;
 	rdfs:comment "Image data of the brain; includes (but not limited to) fMRI, PET, CAT, MEG, and CT of the brain" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Neuroimaging" ;
-	rdfs:label "Neuroimaging" .
+	rdfs:label "Neuroimaging" ;
+	skos:broadMatch "http://edamontology.org/data_2968" , "http://edamontology.org/data_3424" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Neuroimaging" ;
+	skos:narrowMatch "http://edamontology.org/data_3442" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neuroinformatics
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neuroinformatics> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> , <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neuroscience> ;
 	rdfs:comment "Study of of computational and statistical methods using data from neuroscience" ;
-	rdfs:label "Neuroinformatics" .
+	rdfs:label "Neuroinformatics" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Neuroinformatics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#neuroscience
 
@@ -653,21 +788,24 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of the nervous system" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Neuroscience" ;
-	rdfs:label "Neuroscience" .
+	rdfs:label "Neuroscience" ;
+	skos:exactMatch "http://edamontology.org/topic_3304" , "https://en.wikipedia.org/wiki/Neuroscience" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#optimization
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#optimization> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mathematics> ;
 	rdfs:comment "Study of minimizing or maximizing a mathematical function to extract the best element in a space" ;
-	rdfs:label "Optimization" .
+	rdfs:label "Optimization" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Mathematical_optimization" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#parallel_database
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#parallel_database> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases> ;
 	rdfs:comment "A data storage system that uses parallel architecture to scale storage and to improve query performance" ;
-	rdfs:label "Parallel Database" .
+	rdfs:label "Parallel Database" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Parallel_database" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#pharmacology_drug_discovery
 
@@ -675,7 +813,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of finding new medications and drugs as well as their effects on living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Drug_discovery" , "https://en.wikipedia.org/wiki/Pharmacology" ;
-	rdfs:label "Pharmacology Drug Discovery" .
+	rdfs:label "Pharmacology Drug Discovery" ;
+	skos:narrowMatch "http://edamontology.org/topic_0202" , "http://edamontology.org/topic_3336" , "https://en.wikipedia.org/wiki/Drug_discovery" , "https://en.wikipedia.org/wiki/Pharmacology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#physics
 
@@ -683,14 +822,16 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of matter and its behavior through space and time" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Physics" ;
-	rdfs:label "Physics" .
+	rdfs:label "Physics" ;
+	skos:exactMatch "http://edamontology.org/topic_3318" , "https://en.wikipedia.org/wiki/Physics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#physiology
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#physiology> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of the mechanisms and structures and their functions in a living system" , "https://en.wikipedia.org/wiki/Physiology" ;
-	rdfs:label "Physiology" .
+	rdfs:label "Physiology" ;
+	skos:exactMatch "http://edamontology.org/topic_3300" , "https://en.wikipedia.org/wiki/Physiology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#precision_medicine
 
@@ -698,7 +839,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#medicine_healthcare> ;
 	rdfs:comment "Customization of medical treatment to an individual; used interchangeably with personalized medicine" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Precision_medicine" ;
-	rdfs:label "Precision Medicine" .
+	rdfs:label "Precision Medicine" ;
+	skos:exactMatch "http://edamontology.org/topic_3577" , "https://en.wikipedia.org/wiki/Precision_medicine" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probabilistic_graphical_model
 
@@ -706,7 +848,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Probabilistic model for which a graph expresses the conditional dependence structure between random variables" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Graphical_model" ;
-	rdfs:label "Probabilistic Graphical Model" .
+	rdfs:label "Probabilistic Graphical Model" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Graphical_model" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probability_statistics
 
@@ -714,7 +857,9 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#mathematics> ;
 	rdfs:comment "Branch of mathematics focused on the likelihood of an event and the numerical facts and the states of individuals in the context of data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Probability_and_statistics" ;
-	rdfs:label "Probability Statistics" .
+	rdfs:label "Probability Statistics" ;
+	skos:exactMatch "http://edamontology.org/topic_2269" , "https://en.wikipedia.org/wiki/Probability_and_statistics" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Probability" , "https://en.wikipedia.org/wiki/Statistics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming
 
@@ -722,7 +867,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "The process of translating a computing problem to a computer executable program" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Computer_programming" ;
-	rdfs:label "Programming" .
+	rdfs:label "Programming" ;
+	skos:exactMatch "http://edamontology.org/topic_3372" , "https://en.wikipedia.org/wiki/Computer_programming" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool
 
@@ -736,7 +882,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#molecular_biology> ;
 	rdfs:comment "Study of proteins in living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Proteomics" ;
-	rdfs:label "Proteomics" .
+	rdfs:label "Proteomics" ;
+	skos:exactMatch "http://edamontology.org/topic_0121" , "https://en.wikipedia.org/wiki/Proteomics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#psychology
 
@@ -744,7 +891,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities> ;
 	rdfs:comment "Study of the behavior and mind of humans" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Psychology" ;
-	rdfs:label "Psychology" .
+	rdfs:label "Psychology" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Psychology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#public_health_epidemiology
 
@@ -752,7 +900,9 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#medicine_healthcare> ;
 	rdfs:comment "Study of preventing disease and promoting health within communities and societies and determining the risk factors for diseases in populations" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Epidemiology" , "https://en.wikipedia.org/wiki/Precision_medicine" ;
-	rdfs:label "Public Health Epidemiology" .
+	rdfs:label "Public Health Epidemiology" ;
+	skos:exactMatch "http://edamontology.org/topic_3305" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Epidemiology" , "https://en.wikipedia.org/wiki/Public_health" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#recommender_system
 
@@ -760,14 +910,17 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning techniques used to filter data based on individual preferences and similaries; includes Collaborative filtering and Content-based techniques" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Recommender_system" ;
-	rdfs:label "Recommender System" .
+	rdfs:label "Recommender System" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Recommender_system" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#regression
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#regression> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#supervised_learning> ;
 	rdfs:comment "Supervised machine learning methods used for continuous dependent variables" ;
-	rdfs:label "Regression" .
+	rdfs:label "Regression" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Regression_analysis" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Linear_regression" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#reinforcement_learning
 
@@ -775,28 +928,32 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning techniques focused on maximizing reward based on sequeunces of actions" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Reinforcement_learning" ;
-	rdfs:label "Reinforcement Learning" .
+	rdfs:label "Reinforcement Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Reinforcement_learning" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#relational_database
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#relational_database> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#databases> ;
 	rdfs:comment "A data storage system that uses row-based tables and connecting keys in its model of representation" ;
-	rdfs:label "Relational Database" .
+	rdfs:label "Relational Database" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Relational_database" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#reproducibility
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#reproducibility> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#data_science_process> ;
 	rdfs:comment "Presenting data and/or analysis in format that can be comprehended by and reproduced for stakeholders; can include anything related to reporting, building dashboards, creating data products, or repository sharing for analysis code" ;
-	rdfs:label "Reproducibility" .
+	rdfs:label "Reproducibility" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Reproducibility" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#research_methodology
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#research_methodology> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#medicine_healthcare> ;
 	rdfs:comment "Design of procedures for experiments in medicine and healthcare; often applies to design of clinical trials" ;
-	rdfs:label "Research Methodology" .
+	rdfs:label "Research Methodology" ;
+	skos:broadMatch "http://edamontology.org/topic_3678" , "https://en.wikipedia.org/wiki/Methodology" , "https://en.wikipedia.org/wiki/Research" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#resource_depth
 
@@ -815,22 +972,26 @@ skos:definition a owl:AnnotationProperty .
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#security> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Study and application of methods for protecting computing and data systems" ;
-	rdfs:label "Security" .
+	rdfs:label "Security" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Computer_security" ;
+	skos:narrowMatch "http://edamontology.org/topic_3263" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#sensor_networks_iot
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#sensor_networks_iot> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "Study and design of inter-networking between multiple connected objects" ;
-	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Internet_of_things" ;
-	rdfs:label "Sensor Networks/IoT" .
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Internet_of_things" , "https://en.wikipedia.org/wiki/Wireless_sensor_network" ;
+	rdfs:label "Sensor Networks/IoT" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Internet_of_things" , "https://en.wikipedia.org/wiki/Wireless_sensor_network" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_media_analysis
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_media_analysis> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#computer_science> ;
-	rdfs:isDefinedBy "Use of text and graph based analyses to measure transmission and propogation of information in social media" ;
-	rdfs:label "Social Media Analysis" .
+	rdfs:comment "Use of text and graph based analyses to measure transmission and propogation of information in social media" ;
+	rdfs:label "Social Media Analysis" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Social_media_analytics" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#social_sciences_humanities
 
@@ -838,15 +999,17 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#domain> ;
 	rdfs:comment "Study of people and their interactions with each other, which includes the development and progress of society and culture" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Humanities" , "https://en.wikipedia.org/wiki/Social_science" ;
-	rdfs:label "Social Sciences/Humanities" .
+	rdfs:label "Social Sciences/Humanities" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Humanities" , "https://en.wikipedia.org/wiki/Social_science" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#spatial_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#spatial_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
-	rdfs:comment "Data that represents the geographic features of the Earth" ;
-	rdfs:isDefinedBy "http://www.webopedia.com/TERM/S/spatial_data.html" ;
-	rdfs:label "Spatial Data" .
+	rdfs:comment "Data representing objects defined in a geometric space" ;
+	rdfs:label "Spatial Data" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/Spatial_database" ;
+	skos:relatedMatch "https://en.wikipedia.org/wiki/Spatial_analysis" , "https://en.wikipedia.org/wiki/Spatial_data_infrastructure" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#streaming_data
 
@@ -855,7 +1018,7 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:comment "Data generated continuously and at a large scale, where samples need to be extracted and analyzed; contains a time-based component" ;
 	rdfs:isDefinedBy "https://aws.amazon.com/streaming-data/" ;
 	rdfs:label "Streaming Data" ;
-	rdfs:seeAlso "https://aws.amazon.com/streaming-data/" .
+	skos:exactMatch "https://en.wikipedia.org/wiki/Streaming_data" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#structural_biology
 
@@ -863,7 +1026,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#biology> ;
 	rdfs:comment "Study of molecular structures of biological macromolecules" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Structural_biology" ;
-	rdfs:label "Structural Biology" .
+	rdfs:label "Structural Biology" ;
+	skos:exactMatch "http://edamontology.org/topic_1317" , "https://en.wikipedia.org/wiki/Structural_biology" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#supervised_learning
 
@@ -871,21 +1035,26 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning techniques that draw inferences from labeled data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Supervised_learning" ;
-	rdfs:label "Supervised Learning" .
+	rdfs:label "Supervised Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Supervised_learning" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#tabular_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#tabular_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data arranged in a tabular (rows+columns) format; includes, but not limited to, CSV, TSV, Excel files, and relational tables" ;
-	rdfs:label "Tabular Data" .
+	rdfs:label "Tabular Data" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Table_(information)" ;
+	skos:exactMatch "http://edamontology.org/format_3751" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#text_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#text_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data extracted from documents and used for information retrieval and natural language processing; consists of words" ;
-	rdfs:label "Text Data" .
+	rdfs:label "Text Data" ;
+	skos:broadMatch "skos:broadMatch" ;
+	skos:exactMatch "http://edamontology.org/data_2526" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#time_series_data
 
@@ -893,7 +1062,8 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data that captured over successive points in time" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Time_series" ;
-	rdfs:label "Time Series Data" .
+	rdfs:label "Time Series Data" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Time_series" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#topic_model
 
@@ -901,7 +1071,9 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#probabilistic_graphical_model> ;
 	rdfs:comment "Describes machine learning techniques such as Latent Dirichlet allocation (LDA) where topics are discovered from bodies of text" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Topic_model" ;
-	rdfs:label "Topic Model" .
+	rdfs:label "Topic Model" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Topic_model" ;
+	skos:relatedMatch "http://edamontology.org/data_1347" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#unsupervised_learning
 
@@ -909,35 +1081,42 @@ skos:definition a owl:AnnotationProperty .
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#machine_learning> ;
 	rdfs:comment "Machine learning methods describe the features of unlabeled data; includes clustering and dimensionality reduction techniques" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Unsupervised_learning" ;
-	rdfs:label "Unsupervised Learning" .
+	rdfs:label "Unsupervised Learning" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Unsupervised_learning" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#video
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#video> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#resource_format> ;
-	rdfs:comment "A recorded video that a learner can playback" ;
-	rdfs:label "Video" .
+	rdfs:comment "A recorded video that a learner can watch and playback" ;
+	rdfs:label "Video" ;
+	skos:exactMatch "https://en.wikipedia.org/wiki/Video" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#video_data
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#video_data> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#datatype> ;
 	rdfs:comment "Data from moving images" ;
-	rdfs:label "Video Data" .
+	rdfs:label "Video Data" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Digital_video" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#written_documents
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#written_documents> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#resource_format> ;
 	rdfs:comment "Any pedagogical written material; includes (but not limited to) written webpages, slides, and books" ;
-	rdfs:label "Written Documents" .
+	rdfs:label "Written Documents" ;
+	skos:broadMatch "https://en.wikipedia.org/wiki/Printing" ;
+	skos:relatedMatch "http://edamontology.org/data_0971" , "http://edamontology.org/data_2048" , "http://edamontology.org/data_2849" , "http://edamontology.org/data_3670" , "http://edamontology.org/data_3779" .
 # 
 # https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#C_C++
 
 <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#C_C++> a owl:Class ;
 	rdfs:subClassOf <https://bigdatau.ini.usc.edu/linked-data/dseo.ttl#programming_tool> ;
 	rdfs:comment "general purpose programming languages used often for system programming because of its low level access abilities; used often to write applications in high performance computing" ;
-	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/C%2B%2B" ;
-	rdfs:label "C/C++" .
+	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/C%2B%2B" , "https://en.wikipedia.org/wiki/C_(programming_language)" ;
+	rdfs:label "C/C++" ;
+	rdfs:seeAlso "https://isocpp.org/" ;
+	skos:narrowMatch "https://en.wikipedia.org/wiki/C%2B%2B" , "https://en.wikipedia.org/wiki/C_(programming_language)" .
 # 
 # Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
