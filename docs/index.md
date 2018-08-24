@@ -17,6 +17,11 @@ aims to teach data science while leveraging techniques from data science.
 Specifically, the DSEO is part of the Educational Resource Discovery Index, [ERuDIte](https://bigdatau.ini.usc.edu/about_erudite), 
 and it serves to provide additional descriptors to learning resource metadata.
 
+## License
+Given that the DSEO is used with the [ERuDIte Training Resource Metadata Standard](https://github.com/bioint/erudite-training-resource-standard),
+which has its foundations in [Schema.org](https://schema.org/), the DSEO is also licensed under the Creative Commons Attribution-ShareAlike License (version 3.0).
+The license is available at: [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/).
+
 ## Contact
 We'd love to hear from you! File a bug or new feature idea on our 
 [Github repository](https://github.com/bioint/DSEO/issues). 

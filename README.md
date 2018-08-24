@@ -12,8 +12,6 @@ The directory also contains source files for graphViz visualizations of the DSEO
 
 ## License
 Given that the DSEO is used with the [ERuDIte Training Resource Metadata Standard](https://github.com/bioint/erudite-training-resource-standard), 
-which has its foundations in Schema.org, the DSEO is also licensed under the Creative Commons Attribution-ShareAlike License (version 3.0). 
+which has its foundations in [Schema.org](https://schema.org/), the DSEO is also licensed under the Creative Commons Attribution-ShareAlike License (version 3.0). 
 The license is available at: [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/). 
 
-Please see [Schema.org's terms](https://schema.org/docs/terms.html) for additional details
-regarding the Creative Commons Attribution-ShareAlike License (version 3.0) in their domain. 
