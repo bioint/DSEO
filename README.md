@@ -13,3 +13,12 @@ The directory also contains source files for graphViz visualizations of the DSEO
 ## Mapping the DSEO to other ontologies
 We use SKOS mapping properties [https://www.w3.org/TR/skos-reference/#mapping](https://www.w3.org/TR/skos-reference/#mapping)
 to map DSEO concepts to Wikipedia/DBpedia and EDAM concepts.
+
+
+## License
+Given that the DSEO is used with the ERuDIte Training Resource Metadata Standard, 
+which has its foundations in Schema.org, the DSEO is also licensed under the Creative Commons Attribution-ShareAlike License (version 3.0). 
+The license is available at: [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/). 
+
+Please see [Schema.org's terms](https://schema.org/docs/terms.html) for additional details
+regarding the Creative Commons Attribution-ShareAlike License (version 3.0) in their domain. 
