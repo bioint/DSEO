@@ -16,7 +16,7 @@ to map DSEO concepts to Wikipedia/DBpedia and EDAM concepts.
 
 
 ## License
-Given that the DSEO is used with the ERuDIte Training Resource Metadata Standard, 
+Given that the DSEO is used with the [ERuDIte Training Resource Metadata Standard](https://github.com/bioint/erudite-training-resource-standard), 
 which has its foundations in Schema.org, the DSEO is also licensed under the Creative Commons Attribution-ShareAlike License (version 3.0). 
 The license is available at: [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/). 
 
