@@ -9,7 +9,7 @@ See an example of how DSEO can be used for facets in search and filtering [HERE]
 ## Background
 The DSEO was designed as part of the work to develop the 
 TCC's [Online Data Science Education Platform](https://bigdatau.ini.usc.edu/)
-(NIH Grant #1U24ES026465-03). The platform collects and organizes online data science 
+(NIH Grant #1U24ES026465). The platform collects and organizes online data science 
 training resources and materials and provides an interface for learners to search, 
 explore, recommend, and collect resources they find valuable. Overall, the platform
 aims to teach data science while leveraging techniques from data science.
