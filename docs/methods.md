@@ -37,5 +37,12 @@ with any parents, grandparents, etc.
 See [Visualizations]({{ "/visualizations.html" | absolute_url }}) for more information 
 on each dimension and the terms in each.
 
+## Criteria for adding a concept to the DSEO
+1. Is there enough support for the concept within our resource collection? (Currently, we require more than five resources to be relevant to the concept.)
+2. Does the proposed concept capture an abstracted phrase or concept that cannot be automatically extracted from text (i.e., that it would not be easily found by an information retrieval search over the resource text)?
+3. How does the proposed concept impact a user's ability to discover a resource?
+4. Does a clear definition for the concept exist?
+5. Can the proposed concept be automatically predicted?
+
 We discussed DSEO and the automatic assignment procedure along with the methods involved
 in building ERuDIte at the [BigScholar workshop at WWW 2017](https://dl.acm.org/citation.cfm?id=3053060).
