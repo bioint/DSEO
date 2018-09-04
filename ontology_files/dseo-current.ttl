@@ -575,10 +575,20 @@ skos:relatedMatch a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#gaussian_processes
 
 :gaussian_processes a owl:Class ;
-	rdfs:subClassOf :probability_statistics ;
+	rdfs:subClassOf :stochastic_processes ;
 	rdfs:comment "A collection of random variables indexed by time or space such that every finite collection of those random variables has a multivariate normal distribution" ;
 	rdfs:label "Gaussian Processes" ;
 	skos:exactMatch "http://dbpedia.org/resource/Gaussian_process" .
+# 
+# http://bigdatau.org/linked-data/dseo.ttl#generalized_linear_models
+
+:generalized_linear_models a owl:Class ;
+	rdfs:subClassOf :supervised_learning ;
+	:status "Proposed addition - 13 resources tagged with this concept by Avnish - can be used for regression and classification, so added as a sibling such that it can be used in combination in Classification or Regression tag" ;
+	rdfs:comment "Expanded regressions where the distributions of the dependent variable (y) can be specified" ;
+	rdfs:isDefinedBy "http://dbpedia.org/resource/Generalized_linear_model" ;
+	rdfs:label "Generalized Linear Models" ;
+	skos:exactMatch "http://dbpedia.org/resource/Generalized_linear_model" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#genetics
 
@@ -726,7 +736,7 @@ skos:relatedMatch a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#markov_processes
 
 :markov_processes a owl:Class ;
-	rdfs:subClassOf :probability_statistics ;
+	rdfs:subClassOf :stochastic_processes ;
 	rdfs:comment "Random processes whose future probabilities are determined by its most recent values" ;
 	rdfs:isDefinedBy "http://mathworld.wolfram.com/MarkovProcess.html" ;
 	rdfs:label "Markov Processes" ;
@@ -1077,6 +1087,16 @@ skos:relatedMatch a owl:AnnotationProperty .
 	rdfs:label "Spatial Data" ;
 	skos:narrowMatch "http://dbpedia.org/resource/Spatial_database" ;
 	skos:relatedMatch "http://dbpedia.org/resource/Spatial_analysis" , "http://dbpedia.org/resource/Spatial_data_infrastructure" .
+# 
+# http://bigdatau.org/linked-data/dseo.ttl#stochastic_processes
+
+:stochastic_processes a owl:Class ;
+	rdfs:subClassOf :probability_statistics ;
+	:status "Proposed addition - 41 resources tagged with this proposed tag by Avnish; would be the parent of Gaussian and Markov processes" ;
+	rdfs:comment "Processes involving random variables that are associated with or indexed by a set of numbers" ;
+	rdfs:isDefinedBy "http://dbpedia.org/resource/Stochastic_process" ;
+	rdfs:label "Stochastic Processes" ;
+	skos:exactMatch "http://dbpedia.org/resource/Stochastic_process" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#streaming_data
 
