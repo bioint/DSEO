@@ -1,3 +1,4 @@
+@prefix : <#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,7 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-_:genid1508356267 a owl:Ontology .
+_:genid779939007 a owl:Ontology .
 # 
 # 
 # #################################################################
@@ -176,7 +177,7 @@ skos:definition a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence
 
 <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
 	rdfs:comment "The science and engineering of designing and implementing intelligent machines" ;
 	rdfs:label "Artificial Intelligence" ;
 	rdfs:seeAlso "http://www-formal.stanford.edu/jmc/whatisai/" .
@@ -212,7 +213,7 @@ skos:definition a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#bioinformatics_computational_biology
 
 <http://bigdatau.org/linked-data/dseo.ttl#bioinformatics_computational_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> , <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
 	rdfs:comment "Application of computer science, mathematics, probability, and statistics to study biological data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Bioinformatics" , "https://en.wikipedia.org/wiki/Computational_biology" ;
 	rdfs:label "Bioinformatics/Computational Biology" .
@@ -228,7 +229,7 @@ skos:definition a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#biotechnology
 
 <http://bigdatau.org/linked-data/dseo.ttl#biotechnology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> , <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#engineering> ;
 	rdfs:comment "Development of products based on or applied to living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Biotechnology" ;
 	rdfs:label "Biotechnology" .
@@ -546,7 +547,7 @@ skos:definition a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#knowledge_representation
 
 <http://bigdatau.org/linked-data/dseo.ttl#knowledge_representation> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
+	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> , <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
 	rdfs:comment "Representing a domain of knowlege in a machine-readble form; includes ontologies" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning" ;
 	rdfs:label "Knowledge Representation" .
