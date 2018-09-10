@@ -35,912 +35,912 @@ skos:definition a owl:AnnotationProperty .
 # #################################################################
 # 
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Excel
+# http://bigdatau.org/dseo#Excel
 
-<http://bigdatau.org/linked-data/dseo.ttl#Excel> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Excel> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Microsoft Office spreadsheet tool often used for analysis in business, biology, and social sciences" ;
 	rdfs:label "Excel" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#GIS
+# http://bigdatau.org/dseo#GIS
 
-<http://bigdatau.org/linked-data/dseo.ttl#GIS> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#spatial_data> ;
+<http://bigdatau.org/dseo#GIS> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#spatial_data> ;
 	rdfs:comment "Spatial, geographic data; describes the exact geographic information system (GIS) format" ;
 	rdfs:label "GIS" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Galaxy
+# http://bigdatau.org/dseo#Galaxy
 
-<http://bigdatau.org/linked-data/dseo.ttl#Galaxy> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Galaxy> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Web application that allows processing of large datasets for analysis in bioinformatics" ;
 	rdfs:label "Galaxy" ;
 	rdfs:seeAlso "https://galaxyproject.org/tutorials/g101/" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#HTML
+# http://bigdatau.org/dseo#HTML
 
-<http://bigdatau.org/linked-data/dseo.ttl#HTML> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#HTML> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:label "HTML" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Hadoop
+# http://bigdatau.org/dseo#Hadoop
 
-<http://bigdatau.org/linked-data/dseo.ttl#Hadoop> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Hadoop> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Open source Apache project used for distributed computing; applies to the full Hadoop stack, which includes the Hadoop implementation of MapReduce" ;
 	rdfs:label "Hadoop" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#JSON
+# http://bigdatau.org/dseo#JSON
 
-<http://bigdatau.org/linked-data/dseo.ttl#JSON> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#JSON> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data interchange format that uses attribute-value pairs to encode data that needs to be transmitted; often the output format of an API; often used for browser/server communication" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/JSON" ;
 	rdfs:label "JSON" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Java
+# http://bigdatau.org/dseo#Java
 
-<http://bigdatau.org/linked-data/dseo.ttl#Java> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Java> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Programming language designed to be as platform independent as possible; popular language for desktop and mobile applications" , "https://en.wikipedia.org/wiki/Java_(programming_language)" ;
 	rdfs:label "Java" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#JavaScript
+# http://bigdatau.org/dseo#JavaScript
 
-<http://bigdatau.org/linked-data/dseo.ttl#JavaScript> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#JavaScript> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Programming language fundamental to web content; used often for data applications and visualization (i.e. d3.js) in data science" ;
 	rdfs:label "JavaScript" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#MATLAB_Octave
+# http://bigdatau.org/dseo#MATLAB_Octave
 
-<http://bigdatau.org/linked-data/dseo.ttl#MATLAB_Octave> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#MATLAB_Octave> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Numerical computing environment focused primarily on the use of matrices used for scientific computing" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/MATLAB" ;
 	rdfs:label "MATLAB/Octave" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#NoSQL
+# http://bigdatau.org/dseo#NoSQL
 
-<http://bigdatau.org/linked-data/dseo.ttl#NoSQL> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
+<http://bigdatau.org/dseo#NoSQL> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#databases> ;
 	rdfs:comment "Broad term used to identify data storage and representation systems that does not use a relational model; examples include key-value, document, and column systems" ;
 	rdfs:label "NoSQL" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Perl
+# http://bigdatau.org/dseo#Perl
 
-<http://bigdatau.org/linked-data/dseo.ttl#Perl> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Perl> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "General purpose, high-level programming language used often for system administration and bioinformatics; in bioinformatics, it is used for analysis" ;
 	rdfs:label "Perl" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Python
+# http://bigdatau.org/dseo#Python
 
-<http://bigdatau.org/linked-data/dseo.ttl#Python> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Python> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "General purpose programming language often used in data science and scientific computing" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Python_(programming_language)" ;
 	rdfs:label "Python" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#R
+# http://bigdatau.org/dseo#R
 
-<http://bigdatau.org/linked-data/dseo.ttl#R> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#R> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Programming language for statistical computing and data visualization" ;
 	rdfs:label "R" ;
 	rdfs:seeAlso "https://www.r-project.org/about.html" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#RDF
+# http://bigdatau.org/dseo#RDF
 
-<http://bigdatau.org/linked-data/dseo.ttl#RDF> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#graph_data> ;
+<http://bigdatau.org/dseo#RDF> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#graph_data> ;
 	rdfs:comment "Model for semantic web data; RDF is an exact format that is used to extract web graph data where resources are nodes and links connect the nodes" ;
 	rdfs:isDefinedBy "https://www.w3.org/RDF/" ;
 	rdfs:label "RDF" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#SQL
+# http://bigdatau.org/dseo#SQL
 
-<http://bigdatau.org/linked-data/dseo.ttl#SQL> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#SQL> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "short for Structured Query Language, which is a specialized programming language that has foundations in relational algebra and is used to define a relational model, manipulate data in a relational database, and control permissions and privileges in the database" ;
 	rdfs:label "SQL" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#Spark
+# http://bigdatau.org/dseo#Spark
 
-<http://bigdatau.org/linked-data/dseo.ttl#Spark> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#Spark> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "Cluster-computing framework that allows for in-memory processing" ;
 	rdfs:label "Spark" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#XML
+# http://bigdatau.org/dseo#XML
 
-<http://bigdatau.org/linked-data/dseo.ttl#XML> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#XML> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Markup language used for web documents; can be a datatype encountered in web scraping" ;
 	rdfs:label "XML" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#active_learning
+# http://bigdatau.org/dseo#active_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#active_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#active_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Semi-supervised machine learning techniques in which a learning algorithm is able to interactively query the user (or some other information source) to obtain the desired outputs at new data points" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)" ;
 	rdfs:label "Active Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#advanced
+# http://bigdatau.org/dseo#advanced
 
-<http://bigdatau.org/linked-data/dseo.ttl#advanced> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#resource_depth> ;
+<http://bigdatau.org/dseo#advanced> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#resource_depth> ;
 	rdfs:comment "Applies to difficulty; advanced resources look at a concept or collection of concepts at a deeper level; example: resource that looks at the intricacies of an algorithm, including its limitations and extensions; also applies to resources that are project-oriented, where a set of learned knowledge must be applied to a new domain" ;
 	rdfs:label "Advanced" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence
+# http://bigdatau.org/dseo#artificial_intelligence
 
-<http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#artificial_intelligence> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "The science and engineering of designing and implementing intelligent machines" ;
 	rdfs:label "Artificial Intelligence" ;
 	rdfs:seeAlso "http://www-formal.stanford.edu/jmc/whatisai/" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#association_rule_learning
+# http://bigdatau.org/dseo#association_rule_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#association_rule_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#unsupervised_learning> ;
+<http://bigdatau.org/dseo#association_rule_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#unsupervised_learning> ;
 	rdfs:comment "Unsupervised learning techniques where relations between variables in large databases are learned" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Association_rule_learning" ;
 	rdfs:label "Association Rule Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#audio_data
+# http://bigdatau.org/dseo#audio_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#audio_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#audio_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data from sound" ;
 	rdfs:label "Audio Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#bayesian_methods
+# http://bigdatau.org/dseo#bayesian_methods
 
-<http://bigdatau.org/linked-data/dseo.ttl#bayesian_methods> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+<http://bigdatau.org/dseo#bayesian_methods> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#probability_statistics> ;
 	rdfs:comment "Statistical techniques that use Bayesian probabilities; techniques in modeling and estimation use a prior probability/distribution to inform estimation" ;
 	rdfs:label "Bayesian Methods" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#big_data
+# http://bigdatau.org/dseo#big_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#big_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#big_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Broad term used to describe a massive volume of data that will often require specialized tools and approaches to handle" ;
 	rdfs:label "Big Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#bioinformatics_computational_biology
+# http://bigdatau.org/dseo#bioinformatics_computational_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#bioinformatics_computational_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> , <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+<http://bigdatau.org/dseo#bioinformatics_computational_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> , <http://bigdatau.org/dseo#computer_science> , <http://bigdatau.org/dseo#probability_statistics> ;
 	rdfs:comment "Application of computer science, mathematics, probability, and statistics to study biological data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Bioinformatics" , "https://en.wikipedia.org/wiki/Computational_biology" ;
 	rdfs:label "Bioinformatics/Computational Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#biology
+# http://bigdatau.org/dseo#biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of living things" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Biology" ;
 	rdfs:label "Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#biotechnology
+# http://bigdatau.org/dseo#biotechnology
 
-<http://bigdatau.org/linked-data/dseo.ttl#biotechnology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> , <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#engineering> ;
+<http://bigdatau.org/dseo#biotechnology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> , <http://bigdatau.org/dseo#computer_science> , <http://bigdatau.org/dseo#engineering> ;
 	rdfs:comment "Development of products based on or applied to living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Biotechnology" ;
 	rdfs:label "Biotechnology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#business_analytics
+# http://bigdatau.org/dseo#business_analytics
 
-<http://bigdatau.org/linked-data/dseo.ttl#business_analytics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#business_analytics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study and application of statistics and probability to evaluate and inform business decisions" ;
 	rdfs:label "Business Analytics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#causality
+# http://bigdatau.org/dseo#causality
 
-<http://bigdatau.org/linked-data/dseo.ttl#causality> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probabilistic_graphical_model> ;
+<http://bigdatau.org/dseo#causality> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#probabilistic_graphical_model> ;
 	rdfs:comment "Describes machine learning techniques for causal inferencing that rely on a probabilistic graph" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Causal_inference" ;
 	rdfs:label "Causality" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#cell_biology
+# http://bigdatau.org/dseo#cell_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#cell_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#cell_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of the structures and functions of cells in living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Cell_biology" ;
 	rdfs:label "Cell Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#chemical_biology
+# http://bigdatau.org/dseo#chemical_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#chemical_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#chemical_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Application of chemical techniques, tools, and analyses, and often compounds produced through synthetic chemistry, to the study and manipulation of biological systems" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Chemical_biology" ;
 	rdfs:label "Chemical Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#chemistry
+# http://bigdatau.org/dseo#chemistry
 
-<http://bigdatau.org/linked-data/dseo.ttl#chemistry> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#chemistry> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of the composition, structure, properties, and change of matter" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Chemistry" ;
 	rdfs:label "Chemistry" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#classification
+# http://bigdatau.org/dseo#classification
 
-<http://bigdatau.org/linked-data/dseo.ttl#classification> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#supervised_learning> ;
+<http://bigdatau.org/dseo#classification> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#supervised_learning> ;
 	rdfs:comment "Supervised machine learning methods used for categorical, discrete dependent variables" ;
 	rdfs:label "Classification" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#cloud_computing
+# http://bigdatau.org/dseo#cloud_computing
 
-<http://bigdatau.org/linked-data/dseo.ttl#cloud_computing> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#cloud_computing> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "On-demand internet based computing that uses shared physical resources; Amazon Web Services (AWS) is one of the most popular examples" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Cloud_computing" ;
 	rdfs:label "Cloud Computing" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#clustering
+# http://bigdatau.org/dseo#clustering
 
-<http://bigdatau.org/linked-data/dseo.ttl#clustering> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#unsupervised_learning> ;
+<http://bigdatau.org/dseo#clustering> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#unsupervised_learning> ;
 	rdfs:comment "Unsupervised learning techniques where data points are organized into groups based on underlying structure" ;
 	rdfs:label "Clustering" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#computer_science
+# http://bigdatau.org/dseo#computer_science
 
-<http://bigdatau.org/linked-data/dseo.ttl#computer_science> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#computer_science> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of theory, experimentation, and engineering for the design and use of computers" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Computer_science" ;
 	rdfs:label "Computer Science" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_analysis
+# http://bigdatau.org/dseo#data_analysis
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_analysis> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#data_analysis> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Applying machine learning, data mining, and statistical analyses to a dataset; includes the model building, validation, and calibration process" ;
 	rdfs:label "Data Analysis" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_cleaning
+# http://bigdatau.org/dseo#data_cleaning
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_cleaning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#data_cleaning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Process of handling data inconsistencies (ex: spacing issues, NULL values, broken unicode) that interfere with analysis" ;
 	rdfs:label "Data Cleaning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_collection
+# http://bigdatau.org/dseo#data_collection
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_collection> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#data_collection> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Process of gathering data; can include experiment design and automated data collection via scraping or structured data extraction" ;
 	rdfs:label "Data Collection" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_exploration
+# http://bigdatau.org/dseo#data_exploration
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_exploration> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#data_exploration> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Preliminary analysis step where the data is summarized and visualized in order to understand what additional analytic techniques should be used" ;
 	rdfs:label "Data Exploration" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_integration
+# http://bigdatau.org/dseo#data_integration
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_integration> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#data_integration> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Combining data residing in different sources into a unified view for analysis and exploration" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Data_integration" ;
 	rdfs:label "Data Integration" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_science_process
+# http://bigdatau.org/dseo#data_science_process
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_science_process> a owl:Class ;
+<http://bigdatau.org/dseo#data_science_process> a owl:Class ;
 	rdfs:comment "is a dimension name; step of the data science workflow that is relevant to a resource" ;
 	rdfs:label "Data Science Process" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#data_visualization
+# http://bigdatau.org/dseo#data_visualization
 
-<http://bigdatau.org/linked-data/dseo.ttl#data_visualization> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#data_visualization> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Presenting data in a graphical representation in order to explore existing dataset and/or present conclusions about a dataset" ;
 	rdfs:label "Data Visualization" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#databases
+# http://bigdatau.org/dseo#databases
 
-<http://bigdatau.org/linked-data/dseo.ttl#databases> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#databases> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Study and application of the organization of data in a structured representation" ;
 	rdfs:label "Databases" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#datatype
+# http://bigdatau.org/dseo#datatype
 
-<http://bigdatau.org/linked-data/dseo.ttl#datatype> a owl:Class ;
+<http://bigdatau.org/dseo#datatype> a owl:Class ;
 	rdfs:comment "is a dimension name; format or type of data referenced in a resource" ;
 	rdfs:label "Datatype" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#deep_learning
+# http://bigdatau.org/dseo#deep_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#deep_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#neural_networks> ;
+<http://bigdatau.org/dseo#deep_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#neural_networks> ;
 	rdfs:comment "Artificial neural networks that have multiple hidden layers" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Deep_learning" ;
 	rdfs:label "Deep Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#developmental_biology
+# http://bigdatau.org/dseo#developmental_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#developmental_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#developmental_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of how living organisms grow and reproduce" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Developmental_biology" ;
 	rdfs:label "Developmental Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#dimensionality_reduction
+# http://bigdatau.org/dseo#dimensionality_reduction
 
-<http://bigdatau.org/linked-data/dseo.ttl#dimensionality_reduction> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#unsupervised_learning> ;
+<http://bigdatau.org/dseo#dimensionality_reduction> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#unsupervised_learning> ;
 	rdfs:comment "Unsupervised learning techniques where a feature space is condensed" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Dimensionality_reduction" ;
 	rdfs:label "Dimensionality Reduction" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#domain
+# http://bigdatau.org/dseo#domain
 
-<http://bigdatau.org/linked-data/dseo.ttl#domain> a owl:Class ;
+<http://bigdatau.org/dseo#domain> a owl:Class ;
 	rdfs:comment "is a dimension name; field or topic of study covered by a resource" ;
 	rdfs:label "Domain" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#ecology
+# http://bigdatau.org/dseo#ecology
 
-<http://bigdatau.org/linked-data/dseo.ttl#ecology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#ecology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of interactions between living organisms and their environment" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Ecology" ;
 	rdfs:label "Ecology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#economics
+# http://bigdatau.org/dseo#economics
 
-<http://bigdatau.org/linked-data/dseo.ttl#economics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#economics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of the consumption and movement of good in relation to people's behavior" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Economics" ;
 	rdfs:label "Economics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#education
+# http://bigdatau.org/dseo#education
 
-<http://bigdatau.org/linked-data/dseo.ttl#education> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#social_sciences_humanities> ;
+<http://bigdatau.org/dseo#education> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#social_sciences_humanities> ;
 	rdfs:comment "Study and practice of learning and teaching techniques" ;
 	rdfs:label "Education" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#electronic_health_record
+# http://bigdatau.org/dseo#electronic_health_record
 
-<http://bigdatau.org/linked-data/dseo.ttl#electronic_health_record> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#electronic_health_record> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data captured in electronic health record systems used by healthcare providers and hospitals; Epic and Cerner are two of the largest and most well known EHR systems" ;
 	rdfs:label "Electronic Health Record" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#engineering
+# http://bigdatau.org/dseo#engineering
 
-<http://bigdatau.org/linked-data/dseo.ttl#engineering> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#engineering> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Application of science and mathematics to design, study, and/or maintain structures, machines, or processes" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Engineering" ;
 	rdfs:label "Engineering" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#ensemble_learning
+# http://bigdatau.org/dseo#ensemble_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#ensemble_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#ensemble_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning technique where multiple machine learning techniques are used to create a stronger model" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Ensemble_learning" ;
 	rdfs:label "Ensemble Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#ethics
+# http://bigdatau.org/dseo#ethics
 
-<http://bigdatau.org/linked-data/dseo.ttl#ethics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#social_sciences_humanities> ;
+<http://bigdatau.org/dseo#ethics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#social_sciences_humanities> ;
 	rdfs:comment "Study of philosophy related to the right and wrong; in the DSEO domain, most relevant for ethics in data science" , "https://en.wikipedia.org/wiki/Ethics" ;
 	rdfs:label "Ethics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#evolutionary_biology
+# http://bigdatau.org/dseo#evolutionary_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#evolutionary_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#evolutionary_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of the impacts of evolution on living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Evolutionary_biology" ;
 	rdfs:label "Evolutionary Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#gaussian_processes
+# http://bigdatau.org/dseo#gaussian_processes
 
-<http://bigdatau.org/linked-data/dseo.ttl#gaussian_processes> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+<http://bigdatau.org/dseo#gaussian_processes> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#probability_statistics> ;
 	rdfs:comment "A collection of random variables indexed by time or space such that every finite collection of those random variables has a multivariate normal distribution" ;
 	rdfs:label "Gaussian Processes" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#genetics
+# http://bigdatau.org/dseo#genetics
 
-<http://bigdatau.org/linked-data/dseo.ttl#genetics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#molecular_biology> ;
+<http://bigdatau.org/dseo#genetics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#molecular_biology> ;
 	rdfs:comment "Study of genes in living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Genetics" ;
 	rdfs:label "Genetics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#genomic_proteomic_data
+# http://bigdatau.org/dseo#genomic_proteomic_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#genomic_proteomic_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#genomic_proteomic_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "DNA, RNA and protein data; this tag should be used in combination with the genetics tag" ;
 	rdfs:label "Genomic Proteomic Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#graph_analytics
+# http://bigdatau.org/dseo#graph_analytics
 
-<http://bigdatau.org/linked-data/dseo.ttl#graph_analytics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#graph_analytics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Study of network/graph structure and the transmission of information over the structure" ;
 	rdfs:label "Graph Analytics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#graph_data
+# http://bigdatau.org/dseo#graph_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#graph_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#graph_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data representing nodes and edges in a network/graph structure" ;
 	rdfs:label "Graph Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#graph_database
+# http://bigdatau.org/dseo#graph_database
 
-<http://bigdatau.org/linked-data/dseo.ttl#graph_database> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
+<http://bigdatau.org/dseo#graph_database> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#databases> ;
 	rdfs:comment "Data storage system that uses graph structure in its model of representation" ;
 	rdfs:isDefinedBy "https://www.coursera.org/learn/data-manipulation" ;
 	rdfs:label "Graph Database" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#high_performance_computing
+# http://bigdatau.org/dseo#high_performance_computing
 
-<http://bigdatau.org/linked-data/dseo.ttl#high_performance_computing> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#high_performance_computing> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Computing processes that involve parallelism to improve computation times; examples: parallel computing, grid computing, supercomputers" ;
 	rdfs:label "High Performance Computing" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#history
+# http://bigdatau.org/dseo#history
 
-<http://bigdatau.org/linked-data/dseo.ttl#history> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#social_sciences_humanities> ;
+<http://bigdatau.org/dseo#history> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#social_sciences_humanities> ;
 	rdfs:comment "Study of the past based on existing documents" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/History" ;
 	rdfs:label "History" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#image_data
+# http://bigdatau.org/dseo#image_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#image_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#image_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data from static images" ;
 	rdfs:label "Image Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#information_retrieval
+# http://bigdatau.org/dseo#information_retrieval
 
-<http://bigdatau.org/linked-data/dseo.ttl#information_retrieval> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#information_retrieval> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Methods and approaches for extracting information from a data collection" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Information_retrieval" ;
 	rdfs:label "Information Retrieval" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#introductory
+# http://bigdatau.org/dseo#introductory
 
-<http://bigdatau.org/linked-data/dseo.ttl#introductory> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#resource_depth> ;
+<http://bigdatau.org/dseo#introductory> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#resource_depth> ;
 	rdfs:comment "Applies to difficulty; introductory resources are ones that introduce a concept or collection of concepts at a high level; may survey a technique" ;
 	rdfs:label "Introductory" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#kernel_methods
+# http://bigdatau.org/dseo#kernel_methods
 
-<http://bigdatau.org/linked-data/dseo.ttl#kernel_methods> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#kernel_methods> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning techniques that use kernel functions in the representation of features; Support Vector Machine is the most common kernel method used in machine learning" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Kernel_method" ;
 	rdfs:label "Kernel Methods" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#knowledge_representation
+# http://bigdatau.org/dseo#knowledge_representation
 
-<http://bigdatau.org/linked-data/dseo.ttl#knowledge_representation> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> , <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
+<http://bigdatau.org/dseo#knowledge_representation> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#artificial_intelligence> , <http://bigdatau.org/dseo#databases> ;
 	rdfs:comment "Representing a domain of knowlege in a machine-readble form; includes ontologies" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning" ;
 	rdfs:label "Knowledge Representation" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#linear_algebra
+# http://bigdatau.org/dseo#linear_algebra
 
-<http://bigdatau.org/linked-data/dseo.ttl#linear_algebra> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#mathematics> ;
+<http://bigdatau.org/dseo#linear_algebra> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#mathematics> ;
 	rdfs:comment "Branch of mathematics focused on vector spaces and the mappings between them" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Linear_algebra" ;
 	rdfs:label "Linear Algebra" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#machine_learning
+# http://bigdatau.org/dseo#machine_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#machine_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> , <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+<http://bigdatau.org/dseo#machine_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#artificial_intelligence> , <http://bigdatau.org/dseo#probability_statistics> ;
 	rdfs:comment "Techniques used to extract inferences from a dataset; can include model selection procedure and specific algorithms used" ;
 	rdfs:label "Machine Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#marketing_analytics
+# http://bigdatau.org/dseo#marketing_analytics
 
-<http://bigdatau.org/linked-data/dseo.ttl#marketing_analytics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#business_analytics> ;
+<http://bigdatau.org/dseo#marketing_analytics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#business_analytics> ;
 	rdfs:comment "Application of probabilty and statistics to answer questions about marketing" ;
 	rdfs:label "Marketing Analytics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#markov_processes
+# http://bigdatau.org/dseo#markov_processes
 
-<http://bigdatau.org/linked-data/dseo.ttl#markov_processes> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+<http://bigdatau.org/dseo#markov_processes> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#probability_statistics> ;
 	rdfs:comment "Random processes whose future probabilities are determined by its most recent values" ;
 	rdfs:label "Markov Processes" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#mathematics
+# http://bigdatau.org/dseo#mathematics
 
-<http://bigdatau.org/linked-data/dseo.ttl#mathematics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#mathematics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of quantity, structure, space, and change" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Mathematics" ;
 	rdfs:label "Mathematics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#medicine_healthcare
+# http://bigdatau.org/dseo#medicine_healthcare
 
-<http://bigdatau.org/linked-data/dseo.ttl#medicine_healthcare> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#medicine_healthcare> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Science and practice of diagnosing, treating, and preventing disease" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Health_care" , "https://en.wikipedia.org/wiki/Medicine" ;
 	rdfs:label "Medicine/Healthcare" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#mobile_devices
+# http://bigdatau.org/dseo#mobile_devices
 
-<http://bigdatau.org/linked-data/dseo.ttl#mobile_devices> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#mobile_devices> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Design and usage of handheld computing" ;
 	rdfs:label "Mobile Devices" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#molecular_biology
+# http://bigdatau.org/dseo#molecular_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#molecular_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#molecular_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of the molecular basis of interactions between biomolecules" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Molecular_biology" ;
 	rdfs:label "Molecular Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#monte_carlo_methods
+# http://bigdatau.org/dseo#monte_carlo_methods
 
-<http://bigdatau.org/linked-data/dseo.ttl#monte_carlo_methods> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+<http://bigdatau.org/dseo#monte_carlo_methods> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#probability_statistics> ;
 	rdfs:comment "Methods that use random sampling of a distribution to solve a problem" ;
 	rdfs:label "Monte Carlo Methods" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#natural_language_processing
+# http://bigdatau.org/dseo#natural_language_processing
 
-<http://bigdatau.org/linked-data/dseo.ttl#natural_language_processing> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> ;
+<http://bigdatau.org/dseo#natural_language_processing> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#artificial_intelligence> ;
 	rdfs:comment "Branch of artificial intelligence focused on computer and human understanding through their respective languages" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Natural_language_processing" ;
 	rdfs:label "Natural Language Processing" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#neural_networks
+# http://bigdatau.org/dseo#neural_networks
 
-<http://bigdatau.org/linked-data/dseo.ttl#neural_networks> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#neural_networks> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning methods where neuronal layers are used to represent input transformations that lead to an output state" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Artificial_neural_network" ;
 	rdfs:label "Neural Networks" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#neuroimaging
+# http://bigdatau.org/dseo#neuroimaging
 
-<http://bigdatau.org/linked-data/dseo.ttl#neuroimaging> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#image_data> ;
+<http://bigdatau.org/dseo#neuroimaging> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#image_data> ;
 	rdfs:comment "Image data of the brain; includes (but not limited to) fMRI, PET, CAT, MEG, and CT of the brain" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Neuroimaging" ;
 	rdfs:label "Neuroimaging" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#neuroinformatics
+# http://bigdatau.org/dseo#neuroinformatics
 
-<http://bigdatau.org/linked-data/dseo.ttl#neuroinformatics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#neuroscience> ;
+<http://bigdatau.org/dseo#neuroinformatics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> , <http://bigdatau.org/dseo#neuroscience> ;
 	rdfs:comment "Study of of computational and statistical methods using data from neuroscience" ;
 	rdfs:label "Neuroinformatics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#neuroscience
+# http://bigdatau.org/dseo#neuroscience
 
-<http://bigdatau.org/linked-data/dseo.ttl#neuroscience> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#neuroscience> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of the nervous system" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Neuroscience" ;
 	rdfs:label "Neuroscience" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#optimization
+# http://bigdatau.org/dseo#optimization
 
-<http://bigdatau.org/linked-data/dseo.ttl#optimization> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#mathematics> ;
+<http://bigdatau.org/dseo#optimization> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#mathematics> ;
 	rdfs:comment "Study of minimizing or maximizing a mathematical function to extract the best element in a space" ;
 	rdfs:label "Optimization" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#parallel_database
+# http://bigdatau.org/dseo#parallel_database
 
-<http://bigdatau.org/linked-data/dseo.ttl#parallel_database> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
+<http://bigdatau.org/dseo#parallel_database> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#databases> ;
 	rdfs:comment "A data storage system that uses parallel architecture to scale storage and to improve query performance" ;
 	rdfs:label "Parallel Database" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#pharmacology_drug_discovery
+# http://bigdatau.org/dseo#pharmacology_drug_discovery
 
-<http://bigdatau.org/linked-data/dseo.ttl#pharmacology_drug_discovery> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#pharmacology_drug_discovery> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of finding new medications and drugs as well as their effects on living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Drug_discovery" , "https://en.wikipedia.org/wiki/Pharmacology" ;
 	rdfs:label "Pharmacology Drug Discovery" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#physics
+# http://bigdatau.org/dseo#physics
 
-<http://bigdatau.org/linked-data/dseo.ttl#physics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#physics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of matter and its behavior through space and time" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Physics" ;
 	rdfs:label "Physics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#physiology
+# http://bigdatau.org/dseo#physiology
 
-<http://bigdatau.org/linked-data/dseo.ttl#physiology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#physiology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of the mechanisms and structures and their functions in a living system" , "https://en.wikipedia.org/wiki/Physiology" ;
 	rdfs:label "Physiology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#precision_medicine
+# http://bigdatau.org/dseo#precision_medicine
 
-<http://bigdatau.org/linked-data/dseo.ttl#precision_medicine> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#medicine_healthcare> ;
+<http://bigdatau.org/dseo#precision_medicine> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#medicine_healthcare> ;
 	rdfs:comment "Customization of medical treatment to an individual; used interchangeably with personalized medicine" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Precision_medicine" ;
 	rdfs:label "Precision Medicine" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#probabilistic_graphical_model
+# http://bigdatau.org/dseo#probabilistic_graphical_model
 
-<http://bigdatau.org/linked-data/dseo.ttl#probabilistic_graphical_model> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#probabilistic_graphical_model> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Probabilistic model for which a graph expresses the conditional dependence structure between random variables" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Graphical_model" ;
 	rdfs:label "Probabilistic Graphical Model" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#probability_statistics
+# http://bigdatau.org/dseo#probability_statistics
 
-<http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#mathematics> ;
+<http://bigdatau.org/dseo#probability_statistics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#mathematics> ;
 	rdfs:comment "Branch of mathematics focused on the likelihood of an event and the numerical facts and the states of individuals in the context of data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Probability_and_statistics" ;
 	rdfs:label "Probability Statistics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#programming
+# http://bigdatau.org/dseo#programming
 
-<http://bigdatau.org/linked-data/dseo.ttl#programming> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#programming> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "The process of translating a computing problem to a computer executable program" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Computer_programming" ;
 	rdfs:label "Programming" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#programming_tool
+# http://bigdatau.org/dseo#programming_tool
 
-<http://bigdatau.org/linked-data/dseo.ttl#programming_tool> a owl:Class ;
+<http://bigdatau.org/dseo#programming_tool> a owl:Class ;
 	rdfs:comment "is a dimension name; a specific tool used in a resource; should try to use children tags, but if a resource describes a highly specific programming tool, can use the dimension name as a tag" ;
 	rdfs:label "Programming Tool" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#proteomics
+# http://bigdatau.org/dseo#proteomics
 
-<http://bigdatau.org/linked-data/dseo.ttl#proteomics> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#molecular_biology> ;
+<http://bigdatau.org/dseo#proteomics> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#molecular_biology> ;
 	rdfs:comment "Study of proteins in living organisms" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Proteomics" ;
 	rdfs:label "Proteomics" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#psychology
+# http://bigdatau.org/dseo#psychology
 
-<http://bigdatau.org/linked-data/dseo.ttl#psychology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#social_sciences_humanities> ;
+<http://bigdatau.org/dseo#psychology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#social_sciences_humanities> ;
 	rdfs:comment "Study of the behavior and mind of humans" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Psychology" ;
 	rdfs:label "Psychology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#public_health_epidemiology
+# http://bigdatau.org/dseo#public_health_epidemiology
 
-<http://bigdatau.org/linked-data/dseo.ttl#public_health_epidemiology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#medicine_healthcare> ;
+<http://bigdatau.org/dseo#public_health_epidemiology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#medicine_healthcare> ;
 	rdfs:comment "Study of preventing disease and promoting health within communities and societies and determining the risk factors for diseases in populations" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Epidemiology" , "https://en.wikipedia.org/wiki/Precision_medicine" ;
 	rdfs:label "Public Health Epidemiology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#recommender_system
+# http://bigdatau.org/dseo#recommender_system
 
-<http://bigdatau.org/linked-data/dseo.ttl#recommender_system> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#recommender_system> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning techniques used to filter data based on individual preferences and similaries; includes Collaborative filtering and Content-based techniques" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Recommender_system" ;
 	rdfs:label "Recommender System" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#regression
+# http://bigdatau.org/dseo#regression
 
-<http://bigdatau.org/linked-data/dseo.ttl#regression> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#supervised_learning> ;
+<http://bigdatau.org/dseo#regression> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#supervised_learning> ;
 	rdfs:comment "Supervised machine learning methods used for continuous dependent variables" ;
 	rdfs:label "Regression" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#reinforcement_learning
+# http://bigdatau.org/dseo#reinforcement_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#reinforcement_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#reinforcement_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning techniques focused on maximizing reward based on sequeunces of actions" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Reinforcement_learning" ;
 	rdfs:label "Reinforcement Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#relational_database
+# http://bigdatau.org/dseo#relational_database
 
-<http://bigdatau.org/linked-data/dseo.ttl#relational_database> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#databases> ;
+<http://bigdatau.org/dseo#relational_database> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#databases> ;
 	rdfs:comment "A data storage system that uses row-based tables and connecting keys in its model of representation" ;
 	rdfs:label "Relational Database" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#reproducibility
+# http://bigdatau.org/dseo#reproducibility
 
-<http://bigdatau.org/linked-data/dseo.ttl#reproducibility> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#data_science_process> ;
+<http://bigdatau.org/dseo#reproducibility> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#data_science_process> ;
 	rdfs:comment "Presenting data and/or analysis in format that can be comprehended by and reproduced for stakeholders; can include anything related to reporting, building dashboards, creating data products, or repository sharing for analysis code" ;
 	rdfs:label "Reproducibility" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#research_methodology
+# http://bigdatau.org/dseo#research_methodology
 
-<http://bigdatau.org/linked-data/dseo.ttl#research_methodology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#medicine_healthcare> ;
+<http://bigdatau.org/dseo#research_methodology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#medicine_healthcare> ;
 	rdfs:comment "Design of procedures for experiments in medicine and healthcare; often applies to design of clinical trials" ;
 	rdfs:label "Research Methodology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#resource_depth
+# http://bigdatau.org/dseo#resource_depth
 
-<http://bigdatau.org/linked-data/dseo.ttl#resource_depth> a owl:Class ;
+<http://bigdatau.org/dseo#resource_depth> a owl:Class ;
 	rdfs:comment "is a dimension name; difficulty of a resource" ;
 	rdfs:label "Resource Depth" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#resource_format
+# http://bigdatau.org/dseo#resource_format
 
-<http://bigdatau.org/linked-data/dseo.ttl#resource_format> a owl:Class ;
+<http://bigdatau.org/dseo#resource_format> a owl:Class ;
 	rdfs:comment "is a dimension name; how a resource is presented and the format in which a learner interacts with it" ;
 	rdfs:label "Resource Format" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#security
+# http://bigdatau.org/dseo#security
 
-<http://bigdatau.org/linked-data/dseo.ttl#security> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#security> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Study and application of methods for protecting computing and data systems" ;
 	rdfs:label "Security" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#sensor_networks_iot
+# http://bigdatau.org/dseo#sensor_networks_iot
 
-<http://bigdatau.org/linked-data/dseo.ttl#sensor_networks_iot> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#sensor_networks_iot> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:comment "Study and design of inter-networking between multiple connected objects" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Internet_of_things" ;
 	rdfs:label "Sensor Networks/IoT" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#social_media_analysis
+# http://bigdatau.org/dseo#social_media_analysis
 
-<http://bigdatau.org/linked-data/dseo.ttl#social_media_analysis> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
+<http://bigdatau.org/dseo#social_media_analysis> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#computer_science> ;
 	rdfs:isDefinedBy "Use of text and graph based analyses to measure transmission and propogation of information in social media" ;
 	rdfs:label "Social Media Analysis" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#social_sciences_humanities
+# http://bigdatau.org/dseo#social_sciences_humanities
 
-<http://bigdatau.org/linked-data/dseo.ttl#social_sciences_humanities> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#domain> ;
+<http://bigdatau.org/dseo#social_sciences_humanities> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#domain> ;
 	rdfs:comment "Study of people and their interactions with each other, which includes the development and progress of society and culture" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Humanities" , "https://en.wikipedia.org/wiki/Social_science" ;
 	rdfs:label "Social Sciences/Humanities" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#spatial_data
+# http://bigdatau.org/dseo#spatial_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#spatial_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#spatial_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data that represents the geographic features of the Earth" ;
 	rdfs:isDefinedBy "http://www.webopedia.com/TERM/S/spatial_data.html" ;
 	rdfs:label "Spatial Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#streaming_data
+# http://bigdatau.org/dseo#streaming_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#streaming_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#streaming_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data generated continuously and at a large scale, where samples need to be extracted and analyzed; contains a time-based component" ;
 	rdfs:isDefinedBy "https://aws.amazon.com/streaming-data/" ;
 	rdfs:label "Streaming Data" ;
 	rdfs:seeAlso "https://aws.amazon.com/streaming-data/" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#structural_biology
+# http://bigdatau.org/dseo#structural_biology
 
-<http://bigdatau.org/linked-data/dseo.ttl#structural_biology> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#biology> ;
+<http://bigdatau.org/dseo#structural_biology> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#biology> ;
 	rdfs:comment "Study of molecular structures of biological macromolecules" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Structural_biology" ;
 	rdfs:label "Structural Biology" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#supervised_learning
+# http://bigdatau.org/dseo#supervised_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#supervised_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#supervised_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning techniques that draw inferences from labeled data" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Supervised_learning" ;
 	rdfs:label "Supervised Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#tabular_data
+# http://bigdatau.org/dseo#tabular_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#tabular_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#tabular_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data arranged in a tabular (rows+columns) format; includes, but not limited to, CSV, TSV, Excel files, and relational tables" ;
 	rdfs:label "Tabular Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#text_data
+# http://bigdatau.org/dseo#text_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#text_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#text_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data extracted from documents and used for information retrieval and natural language processing; consists of words" ;
 	rdfs:label "Text Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#time_series_data
+# http://bigdatau.org/dseo#time_series_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#time_series_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#time_series_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data that captured over successive points in time" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Time_series" ;
 	rdfs:label "Time Series Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#topic_model
+# http://bigdatau.org/dseo#topic_model
 
-<http://bigdatau.org/linked-data/dseo.ttl#topic_model> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probabilistic_graphical_model> ;
+<http://bigdatau.org/dseo#topic_model> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#probabilistic_graphical_model> ;
 	rdfs:comment "Describes machine learning techniques such as Latent Dirichlet allocation (LDA) where topics are discovered from bodies of text" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Topic_model" ;
 	rdfs:label "Topic Model" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#unsupervised_learning
+# http://bigdatau.org/dseo#unsupervised_learning
 
-<http://bigdatau.org/linked-data/dseo.ttl#unsupervised_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> ;
+<http://bigdatau.org/dseo#unsupervised_learning> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#machine_learning> ;
 	rdfs:comment "Machine learning methods describe the features of unlabeled data; includes clustering and dimensionality reduction techniques" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Unsupervised_learning" ;
 	rdfs:label "Unsupervised Learning" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#video
+# http://bigdatau.org/dseo#video
 
-<http://bigdatau.org/linked-data/dseo.ttl#video> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#resource_format> ;
+<http://bigdatau.org/dseo#video> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#resource_format> ;
 	rdfs:comment "A recorded video that a learner can playback" ;
 	rdfs:label "Video" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#video_data
+# http://bigdatau.org/dseo#video_data
 
-<http://bigdatau.org/linked-data/dseo.ttl#video_data> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#datatype> ;
+<http://bigdatau.org/dseo#video_data> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#datatype> ;
 	rdfs:comment "Data from moving images" ;
 	rdfs:label "Video Data" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#written_documents
+# http://bigdatau.org/dseo#written_documents
 
-<http://bigdatau.org/linked-data/dseo.ttl#written_documents> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#resource_format> ;
+<http://bigdatau.org/dseo#written_documents> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#resource_format> ;
 	rdfs:comment "Any pedagogical written material; includes (but not limited to) written webpages, slides, and books" ;
 	rdfs:label "Written Documents" .
 # 
-# http://bigdatau.org/linked-data/dseo.ttl#C_C++
+# http://bigdatau.org/dseo#C_C++
 
-<http://bigdatau.org/linked-data/dseo.ttl#C_C++> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#programming_tool> ;
+<http://bigdatau.org/dseo#C_C++> a owl:Class ;
+	rdfs:subClassOf <http://bigdatau.org/dseo#programming_tool> ;
 	rdfs:comment "general purpose programming languages used often for system programming because of its low level access abilities; used often to write applications in high performance computing" ;
 	rdfs:isDefinedBy "https://en.wikipedia.org/wiki/C%2B%2B" ;
 	rdfs:label "C/C++" .
