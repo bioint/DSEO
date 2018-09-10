@@ -201,7 +201,7 @@ skos:definition a owl:AnnotationProperty .
 
 <http://bigdatau.org/linked-data/dseo.ttl#bayesian_methods> a owl:Class ;
 	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "bayesian_methods" .
+	rdfs:label "Bayesian Methods" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#big_data
 
