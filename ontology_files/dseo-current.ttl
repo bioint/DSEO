@@ -8,7 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-_:genid779939007 a owl:Ontology .
+_:genid1433271403 a owl:Ontology .
 # 
 # 
 # #################################################################
@@ -177,7 +177,7 @@ skos:definition a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence
 
 <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> , <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#computer_science> ;
 	rdfs:comment "The science and engineering of designing and implementing intelligent machines" ;
 	rdfs:label "Artificial Intelligence" ;
 	rdfs:seeAlso "http://www-formal.stanford.edu/jmc/whatisai/" .
@@ -201,6 +201,7 @@ skos:definition a owl:AnnotationProperty .
 
 <http://bigdatau.org/linked-data/dseo.ttl#bayesian_methods> a owl:Class ;
 	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
+	rdfs:comment "Statistical techniques that use Bayesian probabilities; techniques in modeling and estimation use a prior probability/distribution to inform estimation" ;
 	rdfs:label "Bayesian Methods" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#big_data
@@ -460,7 +461,8 @@ skos:definition a owl:AnnotationProperty .
 
 <http://bigdatau.org/linked-data/dseo.ttl#gaussian_processes> a owl:Class ;
 	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "gaussian_processes" .
+	rdfs:comment "A collection of random variables indexed by time or space such that every finite collection of those random variables has a multivariate normal distribution" ;
+	rdfs:label "Gaussian Processes" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#genetics
 
@@ -563,7 +565,7 @@ skos:definition a owl:AnnotationProperty .
 # http://bigdatau.org/linked-data/dseo.ttl#machine_learning
 
 <http://bigdatau.org/linked-data/dseo.ttl#machine_learning> a owl:Class ;
-	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> ;
+	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#artificial_intelligence> , <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
 	rdfs:comment "Techniques used to extract inferences from a dataset; can include model selection procedure and specific algorithms used" ;
 	rdfs:label "Machine Learning" .
 # 
@@ -578,7 +580,8 @@ skos:definition a owl:AnnotationProperty .
 
 <http://bigdatau.org/linked-data/dseo.ttl#markov_processes> a owl:Class ;
 	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "markov_processes" .
+	rdfs:comment "Random processes whose future probabilities are determined by its most recent values" ;
+	rdfs:label "Markov Processes" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#mathematics
 
@@ -615,7 +618,8 @@ skos:definition a owl:AnnotationProperty .
 
 <http://bigdatau.org/linked-data/dseo.ttl#monte_carlo_methods> a owl:Class ;
 	rdfs:subClassOf <http://bigdatau.org/linked-data/dseo.ttl#probability_statistics> ;
-	rdfs:label "monte_carlo_methods" .
+	rdfs:comment "Methods that use random sampling of a distribution to solve a problem" ;
+	rdfs:label "Monte Carlo Methods" .
 # 
 # http://bigdatau.org/linked-data/dseo.ttl#natural_language_processing
 
