@@ -83,7 +83,8 @@ skos:Concept a owl:Class .
 	rdfs:label "Excel" ;
 	rdfs:seeAlso "https://products.office.com/en-us/excel" ;
 	skos:broaderTransitive :programming_tool ;
-	skos:exactMatch "http://dbpedia.org/resource/Microsoft_Excel" .
+	skos:exactMatch "http://dbpedia.org/resource/Microsoft_Excel" ;
+	skos:relatedMatch "http://edamontology.org/format_3751" .
 # 
 # http://bigdatau.org/dseo#GIS
 
@@ -99,6 +100,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Web application that allows processing of large datasets for analysis in bioinformatics" ;
 	rdfs:label "Galaxy" ;
 	rdfs:seeAlso "https://galaxyproject.org/tutorials/g101/" ;
+	skos:broadMatch "http://edamontology.org/topic_0769" ;
 	skos:broaderTransitive :programming_tool ;
 	skos:exactMatch "http://dbpedia.org/resource/Galaxy_(computational_biology)" .
 # 
@@ -287,7 +289,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Statistical techniques that use Bayesian probabilities; techniques in modeling and estimation use a prior probability/distribution to inform estimation" ;
 	rdfs:label "Bayesian Methods" ;
 	skos:broaderTransitive :probability_statistics ;
-	skos:exactMatch "http://dbpedia.org/resource/Bayesian_statistics" .
+	skos:closeMatch "http://dbpedia.org/resource/Bayesian_statistics" .
 # 
 # http://bigdatau.org/dseo#big_data
 
@@ -371,6 +373,7 @@ skos:Concept a owl:Class .
 :classification a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "Supervised machine learning methods used for categorical, discrete dependent variables" ;
 	rdfs:label "Classification" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :supervised_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Statistical_classification" .
 # 
@@ -388,6 +391,7 @@ skos:Concept a owl:Class .
 :clustering a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "Unsupervised learning techniques where data points are organized into groups based on underlying structure" ;
 	rdfs:label "Clustering" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :unsupervised_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Cluster_analysis" .
 # 
@@ -407,7 +411,7 @@ skos:Concept a owl:Class .
 	rdfs:label "Data Analysis" ;
 	skos:broadMatch "http://dbpedia.org/resource/Data_analysis" ;
 	skos:broaderTransitive :data_science_process ;
-	skos:narrowMatch "http://edamontology.org/operation_2945" ;
+	skos:exactMatch "http://edamontology.org/operation_2945" ;
 	skos:relatedMatch "http://edamontology.org/operation_2238" , "http://edamontology.org/operation_2423" , "http://edamontology.org/operation_2426" , "http://edamontology.org/operation_3465" .
 # 
 # http://bigdatau.org/dseo#data_cleaning
@@ -416,8 +420,9 @@ skos:Concept a owl:Class .
 	rdfs:comment "Process of handling data inconsistencies (ex: spacing issues, NULL values, broken unicode) that interfere with analysis" ;
 	rdfs:label "Data Cleaning" ;
 	skos:broaderTransitive :data_science_process ;
-	skos:exactMatch "http://dbpedia.org/resource/Data_cleansing" , "http://edamontology.org/topic_3572" ;
-	skos:relatedMatch "http://edamontology.org/operation_2428" , "http://edamontology.org/operation_3283" , "http://edamontology.org/operation_3695" , "http://edamontology.org/topic_0219" .
+	skos:closeMatch "http://edamontology.org/topic_3572" ;
+	skos:exactMatch "http://dbpedia.org/resource/Data_cleansing" ;
+	skos:relatedMatch "http://edamontology.org/operation_0335" , "http://edamontology.org/operation_1812" , "http://edamontology.org/operation_2428" , "http://edamontology.org/operation_3283" , "http://edamontology.org/operation_3359" , "http://edamontology.org/operation_3695" , "http://edamontology.org/topic_0219" .
 # 
 # http://bigdatau.org/dseo#data_collection
 
@@ -443,15 +448,17 @@ skos:Concept a owl:Class .
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Data_integration" ;
 	rdfs:label "Data Integration" ;
 	skos:broaderTransitive :data_science_process ;
-	skos:closeMatch "http://edamontology.org/topic_3366" ;
-	skos:exactMatch "http://dbpedia.org/resource/Data_integration" ;
-	skos:relatedMatch "http://edamontology.org/operation_0226" , "http://edamontology.org/operation_0335" , "http://edamontology.org/operation_1812" , "http://edamontology.org/operation_2990" , "http://edamontology.org/operation_3357" , "http://edamontology.org/operation_3359" , "http://edamontology.org/topic_3365" , "http://edamontology.org/topic_3489" .
+	skos:exactMatch "http://dbpedia.org/resource/Data_integration" , "http://edamontology.org/topic_3366" ;
+	skos:narrowMatch "http://edamontology.org/operation_0335" ;
+	skos:relatedMatch "http://edamontology.org/operation_0226" , "http://edamontology.org/operation_1812" , "http://edamontology.org/operation_2990" , "http://edamontology.org/operation_3357" , "http://edamontology.org/operation_3359" , "http://edamontology.org/topic_3365" , "http://edamontology.org/topic_3489" .
 # 
 # http://bigdatau.org/dseo#data_science_process
 
 :data_science_process a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "is a dimension name; step of the data science workflow that is relevant to a resource" ;
-	rdfs:label "Data Science Process" .
+	rdfs:label "Data Science Process" ;
+	skos:broadMatch "http://dbpedia.org/resource/Data_science" ;
+	skos:relatedMatch "http://edamontology.org/topic_3473" .
 # 
 # http://bigdatau.org/dseo#data_visualization
 
@@ -460,8 +467,7 @@ skos:Concept a owl:Class .
 	rdfs:label "Data Visualization" ;
 	skos:broaderTransitive :data_science_process ;
 	skos:exactMatch "http://dbpedia.org/resource/Data_Visualization" ;
-	skos:narrowMatch "http://edamontology.org/operation_0337" , "http://edamontology.org/topic_0092" ;
-	skos:relatedMatch "http://edamontology.org/operation_3441" .
+	skos:narrowMatch "http://edamontology.org/operation_0337" , "http://edamontology.org/topic_0092" .
 # 
 # http://bigdatau.org/dseo#databases
 
@@ -475,7 +481,8 @@ skos:Concept a owl:Class .
 
 :datatype a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "is a dimension name; format or type of data referenced in a resource" ;
-	rdfs:label "Datatype" .
+	rdfs:label "Datatype" ;
+	skos:relatedMatch "http://edamontology.org/data_0006" , "http://edamontology.org/format_1915" .
 # 
 # http://bigdatau.org/dseo#deep_learning
 
@@ -483,6 +490,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Artificial neural networks that have multiple hidden layers" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Deep_learning" ;
 	rdfs:label "Deep Learning" ;
+	skos:broadMatch "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :neural_networks ;
 	skos:exactMatch "http://dbpedia.org/resource/Deep_learning" .
 # 
@@ -501,6 +509,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Unsupervised learning techniques where a feature space is condensed" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Dimensionality_reduction" ;
 	rdfs:label "Dimensionality Reduction" ;
+	skos:broadMatch "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :unsupervised_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Dimensionality_reduction" .
 # 
@@ -508,7 +517,8 @@ skos:Concept a owl:Class .
 
 :domain a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "is a dimension name; field or topic of study covered by a resource" ;
-	rdfs:label "Domain" .
+	rdfs:label "Domain" ;
+	skos:closeMatch "http://edamontology.org/topic_0003" .
 # 
 # http://bigdatau.org/dseo#ecology
 
@@ -542,7 +552,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Data captured in electronic health record systems used by healthcare providers and hospitals; Epic and Cerner are two of the largest and most well known EHR systems" ;
 	rdfs:label "Electronic Health Record" ;
 	skos:broaderTransitive :datatype ;
-	skos:exactMatch "http://dbpedia.org/resource/Electronic_health_record" .
+	skos:exactMatch "http://dbpedia.org/resource/Electronic_health_record" , "http://edamontology.org/data_3861" .
 # 
 # http://bigdatau.org/dseo#engineering
 
@@ -559,6 +569,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning technique where multiple machine learning techniques are used to create a stronger model" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Ensemble_learning" ;
 	rdfs:label "Ensemble Learning" ;
+	skos:broadMatch "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Ensemble_learning" .
 # 
@@ -585,6 +596,7 @@ skos:Concept a owl:Class .
 :gaussian_processes a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "A collection of random variables indexed by time or space such that every finite collection of those random variables has a multivariate normal distribution" ;
 	rdfs:label "Gaussian Processes" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :stochastic_processes ;
 	skos:exactMatch "http://dbpedia.org/resource/Gaussian_process" .
 # 
@@ -595,6 +607,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Expanded regressions where the distributions of the dependent variable (y) can be specified" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Generalized_linear_model" ;
 	rdfs:label "Generalized Linear Models" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :supervised_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Generalized_linear_model" .
 # 
@@ -604,9 +617,11 @@ skos:Concept a owl:Class .
 	rdfs:comment "Study of genes in living organisms" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Genetics" ;
 	rdfs:label "Genetics" ;
+	skos:broadMatch "http://edamontology.org/topic_3391" ;
 	skos:broaderTransitive :molecular_biology ;
+	skos:closeMatch "http://edamontology.org/topic_3053" ;
 	skos:exactMatch "http://dbpedia.org/resource/Genetics" ;
-	skos:narrowMatch "http://edamontology.org/topic_0622" , "http://edamontology.org/topic_3053" .
+	skos:narrowMatch "http://edamontology.org/topic_0622" .
 # 
 # http://bigdatau.org/dseo#genomic_proteomic_data
 
@@ -614,7 +629,8 @@ skos:Concept a owl:Class .
 	rdfs:comment "DNA, RNA and protein data; this tag should be used in combination with the genetics tag" ;
 	rdfs:label "Genomic Proteomic Data" ;
 	skos:broaderTransitive :datatype ;
-	skos:narrowMatch "http://dbpedia.org/resource/Genome" , "http://dbpedia.org/resource/Protein" , "http://edamontology.org/data_0850" , "http://edamontology.org/data_0860" , "http://edamontology.org/data_0914" , "http://edamontology.org/data_1255" , "http://edamontology.org/data_1459" , "http://edamontology.org/data_1460" , "http://edamontology.org/data_1916" , "http://edamontology.org/data_2019" , "http://edamontology.org/data_2044" , "http://edamontology.org/data_2534" , "http://edamontology.org/data_2603" , "http://edamontology.org/data_2914" , "http://edamontology.org/data_3498" .
+	skos:narrowMatch "http://dbpedia.org/resource/Genome" , "http://dbpedia.org/resource/Protein" , "http://edamontology.org/data_0850" , "http://edamontology.org/data_0860" , "http://edamontology.org/data_0914" , "http://edamontology.org/data_1255" , "http://edamontology.org/data_1459" , "http://edamontology.org/data_1460" , "http://edamontology.org/data_1916" , "http://edamontology.org/data_2019" , "http://edamontology.org/data_2044" , "http://edamontology.org/data_2523" , "http://edamontology.org/data_2534" , "http://edamontology.org/data_2603" , "http://edamontology.org/data_2914" , "http://edamontology.org/data_3498" ;
+	skos:relatedMatch "http://edamontology.org/data_2600" .
 # 
 # http://bigdatau.org/dseo#graph_analytics
 
