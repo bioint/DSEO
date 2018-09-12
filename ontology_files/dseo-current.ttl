@@ -717,6 +717,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning techniques that use kernel functions in the representation of features; Support Vector Machine is the most common kernel method used in machine learning" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Kernel_method" ;
 	rdfs:label "Kernel Methods" ;
+	skos:broadMatch "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Kernel_method" .
 # 
@@ -763,7 +764,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Random processes whose future probabilities are determined by its most recent values" ;
 	rdfs:isDefinedBy "http://mathworld.wolfram.com/MarkovProcess.html" ;
 	rdfs:label "Markov Processes" ;
-	skos:broadMatch "http://dbpedia.org/resource/Markov_property" ;
+	skos:broadMatch "http://dbpedia.org/resource/Markov_property" , "http://edamontology.org/topic_2269" ;
 	skos:broaderTransitive :stochastic_processes ;
 	skos:narrowMatch "http://dbpedia.org/resource/Markov_chain" .
 # 
@@ -807,6 +808,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Methods that use random sampling of a distribution to solve a problem" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Monte_Carlo_method" ;
 	rdfs:label "Monte Carlo Methods" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" ;
 	skos:broaderTransitive :probability_statistics ;
 	skos:exactMatch "http://dbpedia.org/resource/Monte_Carlo_method" .
 # 
@@ -835,6 +837,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning methods where neuronal layers are used to represent input transformations that lead to an output state" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Artificial_neural_network" ;
 	rdfs:label "Neural Networks" ;
+	skos:broadMatch "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Artificial_neural_network" .
 # 
@@ -922,6 +925,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Probabilistic model for which a graph expresses the conditional dependence structure between random variables" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Graphical_model" ;
 	rdfs:label "Probabilistic Graphical Model" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Graphical_model" .
 # 
@@ -983,6 +987,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning techniques used to filter data based on individual preferences and similaries; includes Collaborative filtering and Content-based techniques" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Recommender_system" ;
 	rdfs:label "Recommender System" ;
+	skos:broadMatch "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Recommender_system" .
 # 
@@ -991,8 +996,9 @@ skos:Concept a owl:Class .
 :regression a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "Supervised machine learning methods used for continuous dependent variables" ;
 	rdfs:label "Regression" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :supervised_learning ;
-	skos:exactMatch "http://dbpedia.org/resource/Regression_analysis" ;
+	skos:exactMatch "http://dbpedia.org/resource/Regression_analysis" , "http://edamontology.org/operation_3659" ;
 	skos:narrowMatch "http://dbpedia.org/resource/Linear_regression" .
 # 
 # http://bigdatau.org/dseo#reinforcement_learning
@@ -1001,6 +1007,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning techniques focused on maximizing reward based on sequeunces of actions" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Reinforcement_learning" ;
 	rdfs:label "Reinforcement Learning" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Reinforcement_learning" .
 # 
@@ -1119,6 +1126,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Processes involving random variables that are associated with or indexed by a set of numbers" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Stochastic_process" ;
 	rdfs:label "Stochastic Processes" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :probability_statistics ;
 	skos:exactMatch "http://dbpedia.org/resource/Stochastic_process" .
 # 
@@ -1146,6 +1154,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning techniques that draw inferences from labeled data" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Supervised_learning" ;
 	rdfs:label "Supervised Learning" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Supervised_learning" .
 # 
@@ -1201,6 +1210,7 @@ skos:Concept a owl:Class .
 	rdfs:comment "Machine learning methods describe the features of unlabeled data; includes clustering and dimensionality reduction techniques" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Unsupervised_learning" ;
 	rdfs:label "Unsupervised Learning" ;
+	skos:broadMatch "http://edamontology.org/topic_2269" , "http://edamontology.org/topic_3474" ;
 	skos:broaderTransitive :machine_learning ;
 	skos:exactMatch "http://dbpedia.org/resource/Unsupervised_learning" .
 # 
