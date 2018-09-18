@@ -175,7 +175,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#Perl
 
 :Perl a owl:NamedIndividual , skos:Concept ;
->>>>>>> map_dseo
 	rdfs:comment "General purpose, high-level programming language used often for system administration and bioinformatics; in bioinformatics, it is used for analysis" ;
 	rdfs:label "Perl" ;
 	rdfs:seeAlso "https://www.perl.org/get.html" ;
