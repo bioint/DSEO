@@ -12,7 +12,7 @@ The directory also contains source files for graphViz visualizations of the DSEO
 
 ## Mapping the DSEO to other ontologies
 We use SKOS mapping properties [https://www.w3.org/TR/skos-reference/#mapping](https://www.w3.org/TR/skos-reference/#mapping)
-to map DSEO concepts to Wikipedia/DBpedia and EDAM concepts.
+to map DSEO concepts to [Wikipedia/DBpedia](https://wiki.dbpedia.org/) and [EDAM](http://edamontology.org/page) concepts.
 
 ## License
 Given that the DSEO is used with the [ERuDIte Training Resource Metadata Standard](https://github.com/bioint/erudite-training-resource-standard), 
