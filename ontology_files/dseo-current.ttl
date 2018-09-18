@@ -1091,7 +1091,7 @@ skos:Concept a owl:Class .
 	:status "Proposed Addition" ;
 	rdfs:comment "Framework for enabling the sharing data across the Web for machine consumption, digestion, and reuse" ;
 	rdfs:label "Semantic Web" ;
-	skos:broaderTransitive :computer_science ;
+	skos:broaderTransitive :knowledge_representation ;
 	skos:exactMatch "http://dbpedia.org/resource/Semantic_Web" ;
 	skos:narrowMatch "http://edamontology.org/format_3748" ;
 	skos:relatedMatch "http://edamontology.org/format_2195" , "http://edamontology.org/topic_0089" .
@@ -1225,7 +1225,7 @@ skos:Concept a owl:Class .
 	skos:exactMatch "http://dbpedia.org/resource/Topic_model" ;
 	skos:relatedMatch "http://edamontology.org/data_1347" .
 # 
-# http://bigdatau.org/dseo#unix_linux
+# http://bigdatau.org/dseo#Unix_Linux
 
 :unix_linux a owl:NamedIndividual , skos:Concept ;
 	:status "Proposed Addition" ;

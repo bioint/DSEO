@@ -1212,7 +1212,7 @@ skos:relatedMatch a owl:AnnotationProperty .
 	skos:exactMatch "http://dbpedia.org/resource/Topic_model" ;
 	skos:relatedMatch "http://edamontology.org/data_1347" .
 # 
-# http://bigdatau.org/dseo#unix_linux
+# http://bigdatau.org/dseo#Unix_Linux
 
 :unix_linux a owl:Class ;
 	:status "Proposed Addition" ;

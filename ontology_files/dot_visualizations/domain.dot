@@ -15,6 +15,8 @@ digraph{
     
     ethics -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
     history -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    music -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
+    sociology -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
     
     linear_algebra -> mathematics [color = "darkorchid2", label = "skos:broaderTransitive"]
     probability_statistics -> mathematics [color = "darkorchid2", label = "skos:broaderTransitive"]
@@ -32,6 +34,8 @@ digraph{
     cloud_computing -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
     signal_processing -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
     signal_processing -> engineering [color = "darkorchid2", label = "skos:broaderTransitive"]
+    algorithms -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    information_theory -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
     
     education -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
     psychology -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
@@ -65,9 +69,10 @@ digraph{
     biotechnology -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
 
     bayesian_methods -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
-    gaussian_processes -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
-    markov_processes -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    gaussian_processes -> stochastic_processes [color = "darkorchid2", label = "skos:broaderTransitive"]
+    markov_processes -> stochastic_processes [color = "darkorchid2", label = "skos:broaderTransitive"]
     monte_carlo_methods -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
+    stochastic_processes -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
     
     machine_learning -> probability_statistics [color = "darkorchid2", label = "skos:broaderTransitive"]
     machine_learning -> artificial_intelligence [color = "darkorchid2", label = "skos:broaderTransitive"]
@@ -76,6 +81,8 @@ digraph{
     
     knowledge_representation -> artificial_intelligence [color = "darkorchid2", label = "skos:broaderTransitive"]
     knowledge_representation -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
+    semantic_web -> knowledge_representation [color = "darkorchid2", label = "skos:broaderTransitive"]
+
     
     graph_database -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
     relational_database -> databases [color = "darkorchid2", label = "skos:broaderTransitive"]
@@ -104,6 +111,9 @@ digraph{
     
     regression -> supervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
     classification -> supervised_learning [color = "darkorchid2", label = "skos:broaderTransitive"]
+    
+    generalized_linear_models -> classification [color = "darkorchid2", label = "skos:broaderTransitive"]
+    generalized_linear_models -> regression [color = "darkorchid2", label = "skos:broaderTransitive"]
     
     deep_learning -> neural_networks [color = "darkorchid2", label = "skos:broaderTransitive"]
     
