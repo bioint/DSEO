@@ -30,6 +30,8 @@ digraph{
     mobile_devices -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
     sensor_networks_iot -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
     cloud_computing -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    signal_processing -> computer_science [color = "darkorchid2", label = "skos:broaderTransitive"]
+    signal_processing -> engineering [color = "darkorchid2", label = "skos:broaderTransitive"]
     
     education -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]
     psychology -> social_sciences_humanities [color = "darkorchid2", label = "skos:broaderTransitive"]

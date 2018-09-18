@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@prefix : <#> .
-=======
 @prefix : <http://bigdatau.org/dseo#> .
->>>>>>> map_dseo
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -12,11 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<<<<<<< HEAD
-_:genid1433271403 a owl:Ontology .
-=======
 <http://bigdatau.org/dseo> a owl:Ontology .
->>>>>>> map_dseo
 # 
 # 
 # #################################################################
