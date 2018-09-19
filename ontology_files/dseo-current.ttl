@@ -1215,7 +1215,7 @@ skos:Concept a owl:Class .
 # 
 # http://bigdatau.org/dseo#Unix_Linux
 
-:unix_linux a owl:NamedIndividual , skos:Concept ;
+:Unix_Linux a owl:NamedIndividual , skos:Concept ;
 	rdfs:comment "Families of multitasking, multiuser computer operating systems that either derive from the original AT&T Unix or are designed to operate in a way similar to that of Unix" ;
 	rdfs:label "Unix/Linux" ;
 	skos:broaderTransitive :programming_tool ;

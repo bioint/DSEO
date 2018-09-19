@@ -1202,7 +1202,7 @@ skos:relatedMatch a owl:AnnotationProperty .
 # 
 # http://bigdatau.org/dseo#Unix_Linux
 
-:unix_linux a owl:Class ;
+:Unix_Linux a owl:Class ;
 	rdfs:comment "Families of multitasking, multiuser computer operating systems that either derive from the original AT&T Unix or are designed to operate in a way similar to that of Unix" ;
 	rdfs:label "Unix/Linux" ;
 	rdfs:subClassOf :programming_tool ;
