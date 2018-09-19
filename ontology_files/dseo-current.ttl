@@ -18,10 +18,6 @@
 # #################################################################
 # 
 # 
-# http://bigdatau.org/dseo#status
-
-:status a owl:AnnotationProperty .
-# 
 # http://www.w3.org/2002/07/owl#sameAs
 
 owl:sameAs a owl:AnnotationProperty .
@@ -258,7 +254,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#algorithms
 
 :algorithms a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "The design of specifications to solve specific problems, most commonly those of mathematics or computer science" ;
 	rdfs:label "Algorithms" ;
 	skos:broadMatch "http://edamontology.org/topic_3372" ;
@@ -612,7 +607,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#generalized_linear_models
 
 :generalized_linear_models a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed addition - 13 resources tagged with this concept by Avnish - can be used for regression and classification, so added as a sibling such that it can be used in combination in Classification or Regression tag" ;
 	rdfs:comment "Expanded regressions where the distributions of the dependent variable (y) can be specified" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Generalized_linear_model" ;
 	rdfs:label "Generalized Linear Models" ;
@@ -709,7 +703,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#information_theory
 
 :information_theory a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "The study of the quantification, storage, and communication of information" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Information_theory" ;
 	rdfs:label "Information Theory" ;
@@ -833,7 +826,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#music
 
 :music a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "An art form whose medium is sound organized in time" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Music" ;
 	rdfs:label "Music" ;
@@ -1088,7 +1080,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#semantic_web
 
 :semantic_web a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "Framework for enabling the sharing data across the Web for machine consumption, digestion, and reuse" ;
 	rdfs:label "Semantic Web" ;
 	skos:broaderTransitive :knowledge_representation ;
@@ -1107,7 +1098,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#signal_processing
 
 :signal_processing a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "Methods that encompasses the fundamental theory, applications, algorithms, and implementations of processing or transferring information contained in many different physical, symbolic, or abstract formats broadly designated as signals" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Signal_processing" ;
 	rdfs:label "Signal Processing" ;
@@ -1133,7 +1123,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#sociology
 
 :sociology a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "The study of society and the members and interactions that form it" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Sociology" ;
 	rdfs:label "Sociology" ;
@@ -1152,7 +1141,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#stochastic_processes
 
 :stochastic_processes a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed addition - 41 resources tagged with this proposed tag by Avnish; would be the parent of Gaussian and Markov processes" ;
 	rdfs:comment "Processes involving random variables that are associated with or indexed by a set of numbers" ;
 	rdfs:isDefinedBy "http://dbpedia.org/resource/Stochastic_process" ;
 	rdfs:label "Stochastic Processes" ;
@@ -1228,7 +1216,6 @@ skos:Concept a owl:Class .
 # http://bigdatau.org/dseo#Unix_Linux
 
 :unix_linux a owl:NamedIndividual , skos:Concept ;
-	:status "Proposed Addition" ;
 	rdfs:comment "Families of multitasking, multiuser computer operating systems that either derive from the original AT&T Unix or are designed to operate in a way similar to that of Unix" ;
 	rdfs:label "Unix/Linux" ;
 	skos:broaderTransitive :programming_tool ;
