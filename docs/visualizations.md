@@ -15,11 +15,11 @@ the broader node/concept can be used to tag resources, and black edges indicate 
 broader node/concept should not be used to tag resources. This color coding thus exists to 
 show which dimension names can and cannot be used as a tag.
 
-## Data Science Process (8 concepts)
+## Data Science Process (7 concepts)
 ### What stages of the data science process will this resource help me with?
 [![datasci]({{ "/assets/ontology-images/data_science_process.png" | absolute_url }})]({{ "/assets/ontology-images/data_science_process.png" | absolute_url }})
 
-## Domain (74 concepts)
+## Domain (83 concepts)
 ### What field of study does this resource focus on?
 [![domain]({{ "/assets/ontology-images/domain.png" | absolute_url }})]({{ "/assets/ontology-images/domain.png" | absolute_url }})
 
@@ -27,7 +27,7 @@ show which dimension names can and cannot be used as a tag.
 ### What types of data are addressed in the resource?
 [![datatype]({{ "/assets/ontology-images/datatype.png" | absolute_url }})]({{ "/assets/ontology-images/datatype.png" | absolute_url }})
 
-## Programming Tool (13 concepts)
+## Programming Tool (14 concepts)
 ### What programming tool is used in or taught by this resource?
 [![programming_tool]({{ "/assets/ontology-images/programming_tool.png" | absolute_url }})]({{ "/assets/ontology-images/programming_tool.png" | absolute_url }})
 
